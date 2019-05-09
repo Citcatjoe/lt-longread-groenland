@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) 
+jQuery(document).ready(function($)
 {
 
 	// INTRO RACOURCIE SI SUR MOBILE
@@ -7,7 +7,7 @@ jQuery(document).ready(function($)
 	{
 		$hVideoWrapperTiming = '+=5.0';
 		$h1Timing = '+=1.0';
-	} 
+	}
 	else
 	{
 		$hVideoWrapperTiming = '+=0.1';
@@ -15,7 +15,8 @@ jQuery(document).ready(function($)
 	}
 
 	// ANIMATION D'INTRODUCTION AVEC GSAP. PREND EN COMPTE LA LARGEUR POUR RACCOURCIR SI MOBILE
-	var $introDone = false;
+	var $introDone = true; // false
+	
 	var $hVideoWrapper = $('header .video-wrapper'),
 		$overlay = $('.overlay'),
 		$logoLt = $('.overlay .logo-lt-blanc, .overlay .logo-sponsor'),
@@ -58,7 +59,7 @@ jQuery(document).ready(function($)
 			duration: 1000,
 			offset: 0
 		})
-			.setTween(title, {autoAlpha: 0, yPercent: '-100%', ease: Power0.easeInOut, clearProps: 'all'}) 
+			.setTween(title, {autoAlpha: 0, yPercent: '-100%', ease: Power0.easeInOut, clearProps: 'all'})
 			//.addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
 			.addTo(ctrlTitle);
 
@@ -70,7 +71,7 @@ jQuery(document).ready(function($)
 			duration: 500,
 			offset: 0
 		})
-			.setTween($scrollIndicator, {yPercent: '105', ease: Power0.easeInOut}) 
+			.setTween($scrollIndicator, {yPercent: '105', ease: Power0.easeInOut})
 			//.addIndicators({name: "2 (duration: 300)"}) // add indicators (requires plugin)
 			.addTo(ctrlScrollIndicator);
 	}
