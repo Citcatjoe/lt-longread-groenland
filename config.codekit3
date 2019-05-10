@@ -1816,7 +1816,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gl/Groenland_04.JPG": {
+	"/img/gl/Groenland_04.jpg": {
 		"ft": 16384,
 		"iS": 1473813,
 		"jF": 0,
@@ -2185,54 +2185,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/img/gl/video_top.mp4",
-		"oF": 0
-		},
-	"/img/gl_video/icebergs.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/icebergs.mov",
-		"oF": 0
-		},
-	"/img/gl_video/icebergs.tiff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/icebergs.tiff",
-		"oF": 0
-		},
-	"/img/gl_video/paaluk.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/paaluk.mp4",
-		"oF": 0
-		},
-	"/img/gl_video/Paaluk_1080.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/Paaluk_1080.mov",
-		"oF": 0
-		},
-	"/img/gl_video/peche.mov": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/peche.mov",
-		"oF": 0
-		},
-	"/img/gl_video/peche.tiff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl_video/peche.tiff",
 		"oF": 0
 		},
 	"/img/lazy-placeholder.jpg": {
