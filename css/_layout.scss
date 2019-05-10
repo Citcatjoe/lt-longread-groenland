@@ -26,7 +26,7 @@ header
     	width: 100%;
     	height: 100%;
     	background: red;
-    	background: url('../img/gl/Groenland_02.jpg');  
+    	background: url('../img/gl/Groenland_02.jpg');
 		background-position: center bottom;
 		background-size: cover;
     }
@@ -752,6 +752,13 @@ section
 	{
 		//margin-bottom: 1.5%;
 		position: relative;
+
+		div.projet
+		{
+			background-color: rgba(163, 193, 225, 0.1);
+			font-family: "Open Sans", sans-serif;
+			padding: 3px;
+		}
 
 		div.sponsor-bar
 		{

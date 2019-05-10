@@ -27,7 +27,7 @@ img {
     margin: 30px auto; }
 
 hr {
-  background: #93b871;
+  background: #a3c1e1;
   height: 4px !important;
   width: 150px;
   border-radius: 3px; }
@@ -175,7 +175,7 @@ h4 {
   h4 br {
     display: none; }
   h4 span {
-    color: #93b871; }
+    color: #a3c1e1; }
 
 h5 {
   color: #fff;
@@ -224,7 +224,7 @@ p {
 
 a:not(.footer__link) {
   position: relative;
-  color: #93b871;
+  color: #a3c1e1;
   text-decoration: none; }
   a:not(.footer__link):hover {
     text-decoration: underline; }
@@ -241,7 +241,7 @@ section.text p:first-of-type:first-letter {
     section.text p:first-of-type:first-letter {
       font-size: 80px; } }
 
-section.encart p:first-of-type:first-letter {
+section.story p:first-of-type:first-letter {
   font-family: "Merriweather";
   letter-spacing: 1px;
   float: left;
@@ -291,7 +291,7 @@ blockquote {
       line-height: 0.1em;
       margin-right: 0;
       vertical-align: -2px;
-      color: #93b871; }
+      color: #a3c1e1; }
       @media (max-width: 500px) {
         blockquote span:before {
           font-size: 30px;
@@ -303,7 +303,7 @@ blockquote {
       line-height: 0.1em;
       margin-right: 0.25em;
       vertical-align: -2px;
-      color: #93b871; }
+      color: #a3c1e1; }
       @media (max-width: 500px) {
         blockquote span:after {
           font-size: 30px;
@@ -684,7 +684,7 @@ section {
     background: red;
     position: relative;
     overflow: visible;
-    border-top: 10px solid #93b871;
+    border-top: 10px solid #a3c1e1;
     background-attachment: fixed !important;
     background-size: cover !important; }
     @media (max-width: 1200px) {
@@ -942,6 +942,10 @@ section {
       background-color: transparent; }
   section.encart {
     position: relative; }
+    section.encart div.projet {
+      background-color: rgba(163, 193, 225, 0.1);
+      font-family: "Open Sans", sans-serif;
+      padding: 3px; }
     section.encart div.sponsor-bar {
       position: absolute;
       height: 57px;
@@ -1637,7 +1641,7 @@ Main Components
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: #93b871;
+  background-color: #a3c1e1;
   -webkit-transform: scaleX(0);
   -moz-transform: scaleX(0);
   -ms-transform: scaleX(0);
@@ -1660,7 +1664,7 @@ Main Components
   text-align: center;
   font-size: 2rem;
   padding-bottom: 15px;
-  color: #93b871;
+  color: #a3c1e1;
   /* fix bug on Safari - text flickering while timeline translates */
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -1690,19 +1694,19 @@ Main Components
   transition: background-color 0.3s, border-color 0.3s; }
 
 .no-touch .cd-horizontal-timeline .events a:hover::after {
-  background-color: #93b871;
-  border-color: #93b871; }
+  background-color: #a3c1e1;
+  border-color: #a3c1e1; }
 
 .cd-horizontal-timeline .events a.selected {
   pointer-events: none; }
 
 .cd-horizontal-timeline .events a.selected::after {
-  background-color: #93b871;
-  border-color: #93b871; }
+  background-color: #a3c1e1;
+  border-color: #a3c1e1; }
 
 .cd-horizontal-timeline .events a.older-event::after {
   /*COLOR LINE*/
-  border-color: #93b871; }
+  border-color: #a3c1e1; }
 
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
@@ -1725,7 +1729,7 @@ Main Components
   height: 34px;
   width: 34px;
   border-radius: 50%;
-  border: 2px solid #93b871;
+  border: 2px solid #a3c1e1;
   /* replace text with an icon */
   overflow: hidden;
   color: transparent;
@@ -1764,7 +1768,7 @@ Main Components
   right: 0; }
 
 .no-touch .cd-timeline-navigation a:hover {
-  border-color: #93b871; }
+  border-color: #a3c1e1; }
 
 .cd-timeline-navigation a.inactive {
   cursor: not-allowed; }

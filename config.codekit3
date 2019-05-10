@@ -1772,6 +1772,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/gl/.BridgeSort": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/img/gl/.BridgeSort",
+		"oF": 0
+		},
 	"/img/gl/Groenland_01.jpg": {
 		"ft": 16384,
 		"iS": 1482991,
@@ -1794,6 +1802,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/gl/Groenland_03-b.jpeg": {
+		"ft": 16384,
+		"iS": 1635535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl/Groenland_03-b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/gl/Groenland_03.jpg": {
 		"ft": 16384,
 		"iS": 1921692,
@@ -1805,7 +1824,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gl/Groenland_04.jpg": {
+	"/img/gl/Groenland_04.JPG": {
 		"ft": 16384,
 		"iS": 1473813,
 		"jF": 0,
@@ -2145,6 +2164,48 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/img/gl/hanne.jpg": {
+		"ft": 16384,
+		"iS": 271609,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl/hanne.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gl/RTS2DQ9P.jpg": {
+		"ft": 16384,
+		"iS": 45886,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl/RTS2DQ9P.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/gl_infog/graph-temp-good-vectorized-no-title-good-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/gl_infog/graph-temp-good-vectorized-no-title-good-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/gl_infog/map-groenland-good-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/gl_infog/map-groenland-good-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/img/lazy-placeholder.jpg": {
 		"ft": 16384,

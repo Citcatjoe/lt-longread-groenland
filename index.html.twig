@@ -4,278 +4,353 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
+<head>
 
-		{{ block('head_brand') }}
-		<link rel="stylesheet" type="text/css" href="css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/loader.css" />
-		<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
-		<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
-		<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,400italic' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
-		<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-		<script src="https://www.youtube.com/iframe_api"></script>
-		<script>var players = [];</script>
+	{{ block('head_brand') }}
+	<link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/loader.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.css" />
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:400,900,400italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script>var players = [];</script>
 
-	</head>
-	<body style="padding-top: {{ navBarOffset }};">
-		{{ block('bar_brand') }}
+</head>
+<body style="padding-top: {{ navBarOffset }};">
+	{{ block('bar_brand') }}
 
-		<!-- <div class="overlay">
-			<img class="logo-lt-blanc" src="img/logo-lt-blanc.svg" alt="">
-			<div class="spinner">
-				<div class="double-bounce1"></div>
-				<div class="double-bounce2"></div>
+	<!-- <div class="overlay">
+	<img class="logo-lt-blanc" src="img/logo-lt-blanc.svg" alt="">
+	<div class="spinner">
+	<div class="double-bounce1"></div>
+	<div class="double-bounce2"></div>
+</div>
+</div> -->
+
+<header>
+	<div class="header__bg"></div>
+	<div class="header__gradient"></div>
+
+	<!-- <div class="video-wrapper">
+	<video playsinline autoplay loop muted>
+	<source src="img/gl_video/icebergs.mov" type="video/mp4">
+	Votre navigateur ne supporte pas les vidéos HTML%.
+</video>
+</div> -->
+
+<div class="header__content">
+	<div class="header__content__container">
+		<div class="header__content__container__box">
+			<h1>Au Groenland, l’aubaine de la fonte des glaces <br><!-- <span></span> --></h1>
+			<!-- <img class="separateur" src="img/separateur.svg" alt=""> -->
+			<h2 class="author">Un reportage de<span> Samuel Turpin</span></h2>
+			<h2 class="social" >
+				<a target="blank" href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fa fa-facebook"></i></a>
+				<a target="blank" href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=letemps"><i class="fa fa-twitter fa-middle"></i></a>
+				<a target="blank" href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}"><i class="fa fa-linkedin"></i></a>
+			</h2>
+		</div>
+	</div>
+</div>
+
+<div class="scroll-indicator">
+	<div class="scroll-indicator-inner"></div>
+</div>
+</header>
+
+
+
+<section class="text">
+	<div class="container">
+
+		<h3>
+			Alors que leur île voit sa glace fondre quatre fois plus vite en dix ans, les Groenlandais préfèrent voir le réchauffement comme une opportunité. Reportage dans cette île ultra dépendante de la pêche, et où des fraises sont désormais cultivées
+			<!-- Les habitants de Qeqertaq, un village presque coupé du monde, voient leur saison de pêche s’allonger grâce à la disparition des glaces. Mais les poissons se raréfient. Les villageois s’endettent pour acheter des bateaux plus gros, permettant de pêcher plus loin	<hr> -->
+		</h3>
+
+		<div class="spacer-small"></div>
+		<div class="spacer-small"></div>
+
+		<h4>
+			Texte, photos et vidéos: Samuel Turpin<br>
+			<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Webdesign: César Greppin et Paul Ronga
+		</h4>
+
+	</div>
+</section>
+
+<section class="encart padding-top padding-bottom">
+	<!-- css dans _layout > .projet -->
+	<div class="container projet">
+		<p>Humans & Climate Change est un projet porté par le journaliste Samuel Turpin, qui suit 12 familles réparties sur le globe, directement impactées par les effets du changement climatique. À travers leurs récits, et la mise en perspective des dynamiques sociales et géopolitiques, il tente de mieux comprendre quels sont les effets du changement climatique sur notre vie quotidienne, nos capacités de résilience et d'adaptation. <i>Le Temps</i> accueille ici son reportage réalisé au Groenland en 2017, où il retournera en 2020 pour retrouver ces familles.</p>
+		<p>Le site du projet: <a href="https://www.humansclimatechange.com/" target="_blank">www.humansclimatechange.com</a></p>
+	</div>
+</section>
+
+<section class="story">
+
+	<div class="container">
+
+		<!-- ENCART GAUCHE à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+		<div class="block-content left">
+			<img src="img/gl_infog/map-groenland-good-01.svg">
+			<!-- <div class="caption">
+			<b>FLORE LEBLEU.</b> Portrait: Bertrand Rey pour Le Temps</div> -->
+		</div>
+
+		<p>Niels appareille son bateau. Les filets de pêche, les traînes avec les hameçons, les palettes qui peuvent contenir jusqu’à 20 kilos de poissons, et le plein de carburant au dépôt qui se situe à quelques centaines de mètres du village. Pour finir, il arrime les deux Poca qui suivront dans le sillage du 7 mètres. Le Poca est le bateau le plus utilisé par les pêcheurs côtiers groenlandais. Un bateau solide, profilé et renforcé pour affronter les glaces arctiques, avec un moteur de 110 à 200 chevaux. Arnatassiaq et Maali, ses filles, suivront dans un troisième Poca.</p>
+		<p>La brume se pose sur la pointe des icebergs depuis que le soleil baisse et fait chuter la température. De mi-juin à mi-septembre, il ne se couche jamais. Il est environ minuit, et nous partons pour de longues heures de pêche. C’est la haute saison pour tous les pêcheurs, qui font des va-et-vient incessants entre la mer, l’usine et la maison pour quelques heures de repos. Chacun va à son rythme, à son heure. Ne cherchez pas de logique ni d’agitation.</p>
+	</div>
+</section>
+
+<!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+<section class="gallery double">
+	<div class="layout">
+		<div class="layout-inner">
+			<img class="zoom lazy" data-original="img/gl/Groenland_01.jpg" src="img/gl/Groenland_01.jpg" style="display: block;">
+			<div class="caption">
+				<b>PORT DE QEQERTAQ</b>. Niels quitte le village pour se diriger vers la zone de pêche où il a posé ses filets 48 heures auparavant.
 			</div>
-		</div> -->
+		</div>
+		<div class="layout-inner">
+			<img class="zoom lazy" data-original="img/gl/Groenland_25.jpg" src="img/gl/Groenland_25.jpg" style="display: block;">
+			<div class="caption">
+				<b>PORT D’UUMAMANNAQ</b>. Les pêcheurs faufilent leur Poca entre les cargos des grandes compagnies de pêche et les icebergs.
+			</div>
+		</div>
+	</div>
+</section>
 
-		<header>
-			<div class="header__bg"></div>
-			<div class="header__gradient"></div>
+<section>
+	<div class="container">
+		<p>Niels a toujours chassé et pêché ici, à Qeqertaq. Son père lui a tout appris de la nature arctique. Pendant trois ans, entre 1999 et 2002, il est parti tenter sa chance à Qeqertarsuaq, de l’autre côté de la baie, sur l’île de Disko. C’était au temps où la morue avait disparu des eaux côtières. Mais l’expérience n’avait pas été assez concluante pour lui donner l’envie d’y rester. Nous n’avons pas de langue commune. Notre langage sera la complicité. Celle qui se gagne dans le respect et dans les gestes. Sa femme Hanne, institutrice à l’école du village, et sa fille cadette Maali seront nos interprètes.</p>
 
-			<!-- <div class="video-wrapper">
-				<video playsinline autoplay loop muted>
-				  <source src="img/gl_video/icebergs.mov" type="video/mp4">
-				  Votre navigateur ne supporte pas les vidéos HTML%.
-				</video>
-			</div> -->
+		<h3>Un village sans routes</h3>
 
-			<div class="header__content">
-				<div class="header__content__container">
-					<div class="header__content__container__box">
-						<h1>Au Groenland, l’aubaine de la fonte des glaces <br><!-- <span></span> --></h1>
-						<!-- <img class="separateur" src="img/separateur.svg" alt=""> -->
-						<h2 class="author">Un reportage de<span> Samuel Turpin</span></h2>
-						<h2 class="social" >
-							<a target="blank" href="https://www.facebook.com/sharer.php?u={{ app.url }}&display=popup&ref=plugin&src=share_button"><i class="fa fa-facebook"></i></a>
-							<a target="blank" href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=letemps"><i class="fa fa-twitter fa-middle"></i></a>
-							<a target="blank" href="https://www.linkedin.com/shareArticle?url={{ app.url }}&mini=true&title={{ title|url_encode }}&summary={{ description|url_encode }}&source={{ 'Le Temps'|url_encode }}"><i class="fa fa-linkedin"></i></a>
-						</h2>
-					</div>
+		<p>Qeqertaq est un village de pêcheurs situé au nord de la baie de Disko, sur la côte ouest du Groenland, accessible par le bateau qui fait la liaison avec <b>Ilulissat</b> une fois par semaine, le jeudi, quand la mer n’est pas prise par les glaces. L’hiver, c’est l’hélicoptère qu’il faut réserver. Cent quinze habitants, 35 maisons, dont 8 sont abandonnées. Vers 19 heures, on entend les longues plaintes des chiens impatients de se jeter sur leur unique repas quotidien. Ils sont attachés tout l’été à quelques minutes du village, ou en liberté sur une petite île proche, en attendant l’activité hivernale. Seuls les chiots nés cette année [ndlr: en 2017] déambulent librement dans le village, suivant les gamins qui vont du port au terrain de jeu, de la maison communale au Pilersuisoq, petit supermarché ravitaillé par containers, pour acheter des chips salées et des sucreries acidulées, puis repassent par le port pour jeter une ligne et «se faire la main».</p>
+		<!-- ENCART DROIT à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+		<div class="block-content right">
+			<img class="zoom lazy" data-original="img/gl/Groenland_32.jpg">
+			<div class="caption">
+				<b>QEQERTAQ</b>. Le village donne une impression de vide-grenier.</div>
+			</div>
+			<p>Pas de route, mais des sentiers et des escaliers en bois qui relient les maisons, bordés par des conduites d’eau et des gaines électriques enveloppées de matériaux isolants pour résister au froid mordant de l’hiver, et une impression de vide-greniers laissée par les carcasses d’appareils électroménagers et de motoneiges abandonnées ici et là, faute de recyclage. Un problème qui se pose dans tous les villages et qui peine à trouver des solutions. L’école primaire, qui accueillera à la rentrée prochaine 18 enfants, l’église, le Pilersuisoq – décidément incontournable – et l’usine de pêche qui arbore le sigle de la société étatique, la Royal Greenland.</p>
+
+
+			<h3>Dépendance à l’usine</h3>
+
+			<p>L’usine ne transforme pas sur place. Les pêcheurs apportent leur prise du jour; les poissons sont nettoyés, vidés, emballés puis congelés dans des chambres froides à -25°C, avec ou sans la tête, qui peut être vendue à part, selon le marché de destination (asiatique, américain ou européen). Ce sont là les consignes de la Royal Greenland.</p>
+			<p>«La pêche, c’est l’ADN des Inuits, surtout depuis qu’on ne peut plus vraiment chasser. C’est avec la pêche que l’on gagne notre vie. En bateau l’été, au trou l’hiver en plongeant des traînes sur lesquelles sont accrochés des hameçons», explique Niels. Et l’usine, c’est le cordon ombilical. «Dans tous les villages de la côte, à l’exception des quelques postes de fonctionnaires ou des employés de la Royal Greenland, les hommes sont pêcheurs. Les femmes les aident et beaucoup travaillent à l’usine. Si ce n’est pas la femme, c’est la fille ou le fils.» Une chaîne logique, mais aussi un dangereux schéma de dépendance.</p>
+
+		</div>
+	</section>
+
+</div>
+</section>
+
+<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+<section class="gallery hero">
+	<div class="layout">
+		<img class="zoom lazy" data-original="img/gl/Groenland_03.jpg">
+		<div class="caption">
+			Niels et sa fille Arnatasiaq observent le sens de dérive des icebergs qui risquent d’emmener leurs filets de pêche.
+		</div>
+	</div>
+</section>
+
+<section class="padding-bottom">
+	<div class="container">
+
+		<h3 class="inter-titre title">2. Le dérèglement des glaces</h2>
+
+			<p>«Toute la partie que tu vois ici, il y a vingt ans, c’était de la glace de début décembre à fin mai. La mer était gelée dans le fjord et jusqu’à la baie de Disko. On se déplaçait avec les chiens et les traîneaux. Maintenant, c’est gelé entre janvier et avril seulement. Et seulement du côté du fjord, pas vers Disko, vers la mer ouverte. La première fois que nous avons vu cela, c’était en 1994», raconte Niels, concentré sur son cap et sur les échos du radar. «A part au plus froid de l’hiver, la glace est devenue trop fine» pour utiliser le traîneau ou la motoneige, et encore trop épaisse pour sortir en bateau.</p>
+			<!--<p>[INFOG EVENTUELLE: EPAISSEUR DES GLACES, NASA]</p>-->
+
+
+			<!-- <blockquote class="left">
+			<span>Nos traîneaux ne sont plus adaptés</span>
+		</blockquote> -->
+
+		<div class="block-content right">
+			<img class="zoom lazy" data-original="img/gl/hanne.jpg">
+			<div class="caption">
+				<b>HANNE</b>, la femme de Niels, est institutrice à l’école du village.</div>
+			</div>
+
+
+		<p>«C’est parfois long et ennuyeux», confie Hanne. «Nous sommes super connectés grâce à la télévision par satellite, à internet et au réseau mobile, mais ce n’est pas pareil. Les Inuits avaient pour habitude de sortir l’hiver sur la glace avec les chiens et de rendre visite aux amis et à la famille. Maintenant, on hésite. Et puis, il y a plus de neige qu’auparavant. Nos traîneaux ne sont pas adaptés, il faudrait des patins plus larges.»</p>
+		<p>Il y a quinze ans, Niels et Hanne se déplaçaient en traîneau et possédaient une trentaine de chiens. Ils ont fini par abandonner. Aujourd’hui, ils préfèrent la motoneige. Une option moins coûteuse, sans risque de maladie et qui nécessite moins de travail.</p>
+
+		<h3>Une tonne de poissons</h3>
+
+		<p>Niels récupère ses filets, tendus il y a deux jours. Les trois Poca jouent au jeu du triangle. Chacun ramène un coin du filet vers le pont principal du 7 mètres. Un piège qui se referme lentement sur les bancs de morue. Une très belle prise. Environ dix heures de travail pour vider plus d’une tonne de poissons et remplir les bacs qui seront débarqués à l’usine de Qeqertaq. Niels a le sourire. C’est la plus belle journée de l’été. Mais ça ne rattrape pas le début de saison difficile et la disparition du flétan dans sa zone de pêche.</p>
+
+	</div>
+</section>
+
+<!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+<section class="gallery double">
+	<div class="layout">
+		<div class="layout-inner">
+			<img class="zoom lazy" data-original="img/gl/Groenland_06.jpg" src="img/gl/Groenland_06.jpg" style="display: block;">
+			<div class="caption">
+				<b>PORT DE QEQERTAQ</b>. Niels quitte le village pour se diriger vers la zone de pêche où il a posé ses filets 48 heures auparavant.
+			</div>
+		</div>
+		<div class="layout-inner">
+			<img class="zoom lazy" data-original="img/gl/Groenland_09.jpg" src="img/gl/Groenland_09.jpg" style="display: block;">
+			<div class="caption">
+				<b>PORT D’UUMAMANNAQ</b>. Les pêcheurs faufilent leur Poca entre les cargos des grandes compagnies de pêche et les icebergs.
+			</div>
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+
+		<p>Fin du labeur. Il est environ 3 heures du matin. Nous repartirons le lendemain pour écarter les icebergs qui dérivent et qui risquent d’entraîner les filets. Cela peut engendrer une grosse perte d’argent pour Niels et c’est un risque écologique pour les fonds marins. Le vêlage devient de plus en plus courant: le dérèglement provoque la séparation par fracture d’une masse de glace qui se détache ainsi d’un mur, d’une falaise de glace ou d’un iceberg.</p>
+
+		<!-- (EXPERIMENTAL) CITATION DROIT DANS UN PARAGRAPHE. DOIT ETRE DANS UNE SECTION -->
+		<blockquote class="right">
+			<span>Les Groenlandais voient dans la fonte des glaces de véritables opportunités</span>
+			<!-- <div class="caption"><b>PAALUK</b></div> -->
+		</blockquote>
+
+		<p>A Uummannaq, à sept heures de bateau plus au nord, on a attendu cette année jusqu’au mois de juin pour admirer la débâcle. On n’avait plus vu cela depuis 2004. De quoi jeter le doute sur le «réchauffement climatique». On m’explique la réticence à répondre sur le sujet. Dérive de l’éthique journalistique. En 2016, un photographe d’une célèbre revue réalisait un sujet sur les changements. Pris dans l’euphorie, un habitant accepte de revêtir ses habits traditionnels et de se laisser photographier sur un morceau de banquise à la dérive. Ces images seront les seules publiées et deviendront iconiques de notre côté de la planète. Lui est devenu la risée du village, au point de choisir l’isolement.</p>
+
+		<h3>Villages désertés</h3>
+
+		<p>«Si de plus en plus de Groenlandais quittent leur village, c’est d’abord à cause du manque de services. La loi de regroupement des municipalités, qui a suivi le référendum de 2009, a supprimé nombre de services de proximité.» La désertification comme alibi des restrictions budgétaires…</p>
+		<p>Le Groenland, sur cette partie ouest de la côte, enregistre depuis 1951 une augmentation de la température de 5°C en hiver, 3°C au printemps et à l’automne, et de 0°C à 1°C en été. Les variations varient sensiblement d’une zone à l’autre en fonction des vents et des courants marins. Il est également difficile de mesurer l’évolution des températures en dehors des zones côtières, car l’inlandsis – qui compose 80% de l’île – reste quasiment inaccessible et cela demanderait des moyens scientifiques colossaux.</p>
+
+
+	</div>
+</section>
+
+
+<section class="gallery small">
+	<div class="layout">
+		<img class="zoom lazy" data-original="img/gl_infog/graph-temp-good-vectorized-no-title-good-01.svg" style="display: block;">
+
+		<div class="caption">
+			<b>HAUSSE DE TEMPÉRATURE.</b> La température moyenne du Groenland a augmenté de deux degrés en cent ans. L’agriculture a commencé à se développer dans le sud du pays. Source: données mensuelles de la Banque Mondiale retraitées par «Le Temps».
+		</div>
+	</div>
+</section>
+
+
+<section>
+	<div class="container">
+
+
+
+		<p>En revanche, le sud de l’île est presque totalement libéré des glaces toute l’année, permettant le développement de l’agriculture. Au Pilersuisoq, on peut donc être surpris de trouver des pommes de terre «made in Greenland», ou des fraises qui ne sont pas importées. Cela peut faire sourire, mais «les Groenlandais et le gouvernement voient dans la fonte des glaces de véritables opportunités pour eux et pour le pays», soulève Paaluk. Lui-même s’est lancé dans une compagnie de tourisme haut de gamme, ciblant une clientèle sportive en quête de sensations fortes, de paysages exceptionnels et d’une nature unique, autour de l’île d’Uummannaq.</p>
+
+	</div>
+</section>
+
+<!-- SECTION VIDEO -->
+<section class="video">
+	<div class="video-wrapper">
+		<div class="trigger"></div>
+		<video controls muted>
+			<source src="https://player.vimeo.com/external/335361298.hd.mp4?s=0e1d51dd32f6b52ca3a7e0d9cb356ef345acec19&profile_id=175"
+			type="video/mp4"> Votre navigateur ne supporte pas les vidéos HTML%.
+		</video>
+		<div class="caption">
+			<b>TOURISME</b>. Paaluk (à gauche) cible une clientèle sportive en quête de paysages exceptionnels autour de l’île d’Uummannaq.
+		</div>
+	</div>
+</section>
+
+<section>
+	<div class="container">
+
+		<p>«Les Groenlandais connaissent parfaitement la nature arctique. Ils vivent avec elle depuis des siècles. Ils la respectent. Ils observent tous aujourd’hui que leur environnement, la faune et la flore se modifient. Ils ne nient pas qu’il y a un changement mais, dans leur grande majorité, ils pensent que c’est un cycle de la Terre comme leurs ancêtres en ont connu auparavant. Réchauffement ou pas, ils sont convaincus qu’ils s’adapteront, comme ils ont toujours su le faire. Pour le moment, ils saisissent l’opportunité qui leur est offerte. Les Inuits sont pragmatiques. C’est comme cela qu’ils ont toujours survécu»… avec autant de dilemmes que de paradoxes.</p>
+
+	</div>
+</section>
+
+<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+<section class="gallery hero">
+	<div class="layout">
+		<img class="zoom lazy" data-original="img/gl/Groenland_04.jpg">
+		<div class="caption">
+			De mi-juin à mi-septembre, le soleil ne se couche jamais.
+		</div>
+	</div>
+</section>
+
+<section class="padding-bottom">
+	<div class="container">
+
+		<h3 class="inter-titre title">3. Un territoire convoité</h2>
+
+			<p>L’engouement des grandes puissances pour la région – qui entraîne dans son sillage celui des grandes entreprises – s’est décuplé depuis que les effets du dérèglement climatique ne sont plus seulement une hypothèse, mais cet intérêt n’est pas totalement nouveau. Durant la guerre froide, l’île était un poste d’observation stratégique qui permettait le contrôle des voies maritimes militaires et de ravitaillement, ainsi que des trajectoires des missiles de longue portée. Dans de récentes publications, on découvre ainsi que dès 1946 les Etats-Unis avaient offert au Danemark d’acheter l’île pour 100 millions de dollars. Copenhague avait refusé, et doit s’en réjouir aujourd’hui.</p>
+
+			<h3>Soutien financier du Danemark</h3>
+
+			<p>Colonie danoise depuis le XVIe siècle, le Groenland est une région autonome depuis 1979. Bien que certains partis politiques surfent sur une vague populiste, une majorité de Groenlandais semblent vouloir conserver une relation privilégiée avec le Danemark, qui contribue à la moitié de leur budget annuel, et ne sont pas prêts à choisir une indépendance totale.</p>
+			<p>Le Groenland représente pour le Danemark un enjeu stratégique majeur. Ce territoire lui permet de siéger au Conseil de l’Arctique et de peser de façon décisive au niveau international sur les questions de l’exploitation des ressources halieutiques, minières et en hydrocarbures, mais aussi sur les questions militaires et de défense qui opposent la Russie aux Etats-Unis – avec qui le Danemark fait cause commune – dans la région, sans oublier les nouvelles voies maritimes qui peuvent à terme être très rentables.</p>
+			<p>L’Arctique est devenu en vingt ans un objet de spéculation. La fonte des glaces et le recul de l’inlandsis ouvrent la voie à l’exploitation de ressources très convoitées, et les autorités groenlandaises comptent bien y trouver leur compte.</p>
+		</div>
+	</section>
+
+	<!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
+	<section class="gallery double">
+		<div class="layout">
+			<div class="layout-inner">
+				<img class="zoom lazy" data-original="img/gl/Groenland_23.jpg" src="img/gl/Groenland_23.jpg" style="display: block;">
+				<div class="caption">
+					<b>GLACES</b>. Icebergs dans la baie de Disko, aux abords des filets de pêche posés par Niels.
 				</div>
 			</div>
-
-			<div class="scroll-indicator">
-				<div class="scroll-indicator-inner"></div>
+			<div class="layout-inner">
+				<img class="zoom lazy" data-original="img/gl/Groenland_22.jpg" src="img/gl/Groenland_22.jpg" style="display: block;">
+				<div class="caption">
+					<b>EAU LIBRE</b>. Dans les parties sud et ouest du Groenland, la fonte des glaces libère aujourd’hui l'océan durant près de 8 mois au cours de l’année, contre 5 mois il y a encore 20 ans.
+				</div>
 			</div>
-		</header>
+		</div>
+	</section>
 
-
-
-		<section class="text padding-bottom">
-			<div class="container">
-
-				<h3>
-					Alors que leur île voit sa glace fondre quatre fois plus vite en dix ans, les Groenlandais préfèrent voir le réchauffement comme une opportunité. Reportage dans cette île ultra dépendante de la pêche, et où des fraises sont désormais cultivées
-					<!-- Les habitants de Qeqertaq, un village presque coupé du monde, voient leur saison de pêche s’allonger grâce à la disparition des glaces. Mais les poissons se raréfient. Les villageois s’endettent pour acheter des bateaux plus gros, permettant de pêcher plus loin	<hr> -->
-				</h3>
-
-				<div class="spacer-small"></div>
-				<div class="spacer-small"></div>
-
-				<h4>
-					Texte, photos et vidéos: Samuel Turpin<br>
-					<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span>Iconographie: Catherine Rüttimann<br>
-					<span>&nbsp;&nbsp;&bull;&nbsp;&nbsp;</span> Webdesign: César Greppin et Paul Ronga
-				</h4>
-
-			</div>
-		</section>
-		<section class="encart">
-			<div class="container">
-				<p>Humans & Climate Change est un projet porté par le journaliste Samuel Turpin, qui suit 12 familles réparties sur le globe, directement impactées par les effets du changement climatique. À travers leurs récits, et la mise en perspective des dynamiques sociales et géopolitiques, il tente de mieux comprendre quels sont les effets du changement climatique sur notre vie quotidienne, nos capacités de résilience et d'adaptation. <i>Le Temps</i> accueille ici son reportage réalisé au Groenland en 2017, où il retournera en 2020 pour retrouver ces familles.</p>
-			</div>
-		</section>
-
-		<section>
-
+	<section>
 		<div class="container">
 
-				<p>Niels appareille son bateau. Les filets de pêche, les traînes avec les hameçons, les palettes qui peuvent contenir jusqu’à 20 kilos de poissons, et le plein de carburant au dépôt qui se situe à quelques centaines de mètres du village. Pour finir, il arrime les deux Poca qui suivront dans le sillage du 7 mètres. Le Poca est le bateau le plus utilisé par les pêcheurs côtiers groenlandais. Un bateau solide, profilé et renforcé pour affronter les glaces arctiques, avec un moteur de 110 à 200 chevaux. Arnatassiaq et Maali, ses filles, suivront dans un troisième Poca.</p>
-				<p>La brume se pose sur la pointe des icebergs depuis que le soleil baisse et fait chuter la température. De mi-juin à mi-septembre, il ne se couche jamais. Il est environ minuit, et nous partons pour de longues heures de pêche. C’est la haute saison pour tous les pêcheurs, qui font des va-et-vient incessants entre la mer, l’usine et la maison pour quelques heures de repos. Chacun va à son rythme, à son heure. Ne cherchez pas de logique ni d’agitation.</p>
+			<h3>Nouvelles voies maritimes</h3>
+
+			<p>La fonte des glaces libère des routes maritimes – notamment le passage du Nord-Ouest – qui réduiraient de 40% le trajet entre l’Asie et l’Europe, ce qui permettrait d’éviter les goulets d’étranglement des canaux de Suez et Panama. Ces liaisons ne sont actuellement praticables que deux à trois mois par an, mais pourraient devenir très rentables en passant à six mois dans les trente prochaines années. Cela entraînerait des risques de pollution indéniables.</p>
+
+			<blockquote class="right">
+				<span>L’Arctique recèlerait le quart des ressources de pétrole et de gaz de la planète</span>
+				<!-- <div class="caption"><b>PAALUK</b></div> -->
+			</blockquote>
+
+			<p>On estime que l’Arctique recèlerait le quart des ressources de pétrole et de gaz de la planète, et plus d’un tiers se situerait au Groenland. Il en va de même pour l’uranium et les terres rares tant recherchées pour le matériel électronique de pointe et les énergies renouvelables, comme la fabrication de panneaux solaires ou les batteries de voitures électriques, et dont la Chine possède actuellement le quasi-monopole commercial. «Sûrement une bonne opportunité pour créer des emplois», confirme Paaluk, qui a accompagné au début de l’été des ingénieurs vers l’ancienne mine de charbon «Black Angel» près d’Uummannaq.</p>
+			<p>Le site avait fermé au début des années 1990, laissant un immense vide pour la main-d’œuvre locale, sans aucune possibilité de reconversion. Des compagnies chinoises pourraient à nouveau s’y intéresser. Les autorités groenlandaises – avec l’aval du tuteur danois – ont déjà accordé cinq licences d’exploitation à de grandes compagnies minières, principalement américaines et australiennes, après avoir levé l’interdiction de l’exploitation des minerais radioactifs en 2013. Un changement de politique majeur de la part des capitales Copenhague et Nuuk, qui pratiquaient depuis trente ans une tolérance zéro sur la question nucléaire.</p>
+
+
+		</div>
+	</section>
+
+	<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+	<section class="gallery hero">
+		<div class="layout">
+			<img class="zoom lazy" data-original="img/gl/Groenland_28.jpg">
+			<div class="caption">
+				La cloche de Qeqertaq, avec à l’arrière-plan l'école primaire et l'église, au centre du village.
 			</div>
-		</section>
+		</div>
+	</section>
 
-				<!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery double">
-					<div class="layout">
-						<div class="layout-inner">
-							<img class="zoom lazy" data-original="img/gl/Groenland_01.jpg" src="img/gl/Groenland_01.jpg" style="display: block;">
-							<div class="caption">
-								<b>PORT DE QEQERTAQ</b>. Niels quitte le village pour se diriger vers la zone de pêche où il a posé ses filets 48 heures auparavant.
-							</div>
-						</div>
-						<div class="layout-inner">
-							<img class="zoom lazy" data-original="img/gl/Groenland_25.jpg" src="img/gl/Groenland_25.jpg" style="display: block;">
-							<div class="caption">
-								<b>PORT D’UUMAMANNAQ</b>. Les pêcheurs faufilent leur Poca entre les cargos des grandes compagnies de pêche et les icebergs.
-							</div>
-						</div>
-					</div>
-				</section>
+	<section class="padding-bottom">
+		<div class="container">
 
-			<section>
-				<div class="container">
-				<p>Niels a toujours chassé et pêché ici, à Qeqertaq. Son père lui a tout appris de la nature arctique. Pendant trois ans, entre 1999 et 2002, il est parti tenter sa chance à Qeqertarsuaq, de l’autre côté de la baie, sur l’île de Disko. C’était au temps où la morue avait disparu des eaux côtières. Mais l’expérience n’avait pas été assez concluante pour lui donner l’envie d’y rester. Nous n’avons pas de langue commune. Notre langage sera la complicité. Celle qui se gagne dans le respect et dans les gestes. Sa femme Hanne, institutrice à l’école du village, et sa fille cadette Maali seront nos interprètes.</p>
-
-				<h3>Un village sans routes</h3>
-
-				<p>Qeqertaq est un village de pêcheurs situé au nord de la baie de Disko, sur la côte ouest du Groenland, accessible par le bateau qui fait la liaison avec Ilulissat une fois par semaine, le jeudi, quand la mer n’est pas prise par les glaces. L’hiver, c’est l’hélicoptère qu’il faut réserver. Cent quinze habitants, 35 maisons, dont 8 sont abandonnées. Vers 19 heures, on entend les longues plaintes des chiens impatients de se jeter sur leur unique repas quotidien. Ils sont attachés tout l’été à quelques minutes du village, ou en liberté sur une petite île proche, en attendant l’activité hivernale. Seuls les chiots nés cette année [ndlr: en 2017] déambulent librement dans le village, suivant les gamins qui vont du port au terrain de jeu, de la maison communale au Pilersuisoq, petit supermarché ravitaillé par containers, pour acheter des chips salées et des sucreries acidulées, puis repassent par le port pour jeter une ligne et «se faire la main».</p>
-				<!-- ENCART DROIT à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
-				<div class="block-content right">
-					<img class="zoom lazy" data-original="img/gl/Groenland_32.jpg">
-					<div class="caption">
-						Le village de Qeqertaq.</div>
-				</div>
-				<p>Pas de route, mais des sentiers et des escaliers en bois qui relient les maisons, bordés par des conduites d’eau et des gaines électriques enveloppées de matériaux isolants pour résister au froid mordant de l’hiver, et une impression de vide-greniers laissée par les carcasses d’appareils électroménagers et de motoneiges abandonnées ici et là, faute de recyclage. Un problème qui se pose dans tous les villages et qui peine à trouver des solutions. L’école primaire, qui accueillera à la rentrée prochaine 18 enfants, l’église, le Pilersuisoq – décidément incontournable – et l’usine de pêche qui arbore le sigle de la société étatique, la Royal Greenland.</p>
-
-
-				<h3>Dépendance à l’usine</h3>
-
-				<p>L’usine ne transforme pas sur place. Les pêcheurs apportent leur prise du jour; les poissons sont nettoyés, vidés, emballés puis congelés dans des chambres froides à -25°C, avec ou sans la tête, qui peut être vendue à part, selon le marché de destination (asiatique, américain ou européen). Ce sont là les consignes de la Royal Greenland.</p>
-				<p>«La pêche, c’est l’ADN des Inuits, surtout depuis qu’on ne peut plus vraiment chasser. C’est avec la pêche que l’on gagne notre vie. En bateau l’été, au trou l’hiver en plongeant des traînes sur lesquelles sont accrochés des hameçons», explique Niels. Et l’usine, c’est le cordon ombilical. «Dans tous les villages de la côte, à l’exception des quelques postes de fonctionnaires ou des employés de la Royal Greenland, les hommes sont pêcheurs. Les femmes les aident et beaucoup travaillent à l’usine. Si ce n’est pas la femme, c’est la fille ou le fils.» Une chaîne logique, mais aussi un dangereux schéma de dépendance.</p>
-
-				</div>
-				</section>
-
-				</div>
-				</section>
-
-				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_03.jpg">
-				    <div class="caption">
-				      Niels et sa fille Arnatasiaq observent le sens de dérive des icebergs qui risquent d’emmener leurs filets de pêche.
-				    </div>
-				  </div>
-				</section>
-
-				<section class="padding-bottom">
-				<div class="container">
-
-				<h3 class="inter-titre title">2. Le dérèglement des glaces</h2>
-
-				<p>«Toute la partie que tu vois ici, il y a vingt ans, c’était de la glace de début décembre à fin mai. La mer était gelée dans le fjord et jusqu’à la baie de Disko. On se déplaçait avec les chiens et les traîneaux. Maintenant, c’est gelé entre janvier et avril seulement. Et seulement du côté du fjord, pas vers Disko, vers la mer ouverte. La première fois que nous avons vu cela, c’était en 1994», raconte Niels, concentré sur son cap et sur les échos du radar. «A part au plus froid de l’hiver, la glace est devenue trop fine» pour utiliser le traîneau ou la motoneige, et encore trop épaisse pour sortir en bateau.</p>
-				<p>[INFOG EVENTUELLE: EPAISSEUR DES GLACES, NASA]</p>
-				<p>«C’est parfois long et ennuyeux», confie Hanne. «Nous sommes super connectés grâce à la télévision par satellite, à internet et au réseau mobile, mais ce n’est pas pareil. Les Inuits avaient pour habitude de sortir l’hiver sur la glace avec les chiens et de rendre visite aux amis et à la famille. Maintenant, on hésite. Et puis, il y a plus de neige qu’auparavant. Nos traîneaux ne sont pas adaptés, il faudrait des patins plus larges.»</p>
-				<p>Il y a quinze ans, Niels et Hanne se déplaçaient en traîneau et possédaient une trentaine de chiens. Ils ont fini par abandonner. Aujourd’hui, ils préfèrent la motoneige. Une option moins coûteuse, sans risque de maladie et qui nécessite moins de travail.</p>
-
-				<h3>Une tonne de poissons</h3>
-
-				<p>Niels récupère ses filets, tendus il y a deux jours. Les trois Poca jouent au jeu du triangle. Chacun ramène un coin du filet vers le pont principal du 7 mètres. Un piège qui se referme lentement sur les bancs de morue. Une très belle prise. Environ dix heures de travail pour vider plus d’une tonne de poissons et remplir les bacs qui seront débarqués à l’usine de Qeqertaq. Niels a le sourire. C’est la plus belle journée de l’été. Mais ça ne rattrape pas le début de saison difficile et la disparition du flétan dans sa zone de pêche.</p>
-
-			</div>
-			</section>
-
-				<!-- 2 IMAGES CÔTE à CÔTE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery double">
-					<div class="layout">
-						<div class="layout-inner">
-							<img class="zoom lazy" data-original="img/gl/Groenland_06.jpg" src="img/gl/Groenland_06.jpg" style="display: block;">
-							<div class="caption">
-								<b>PORT DE QEQERTAQ</b>. Niels quitte le village pour se diriger vers la zone de pêche où il a posé ses filets 48 heures auparavant.
-							</div>
-						</div>
-						<div class="layout-inner">
-							<img class="zoom lazy" data-original="img/gl/Groenland_09.jpg" src="img/gl/Groenland_09.jpg" style="display: block;">
-							<div class="caption">
-								<b>PORT D’UUMAMANNAQ</b>. Les pêcheurs faufilent leur Poca entre les cargos des grandes compagnies de pêche et les icebergs.
-							</div>
-						</div>
-					</div>
-				</section>
-
-			<section>
-				<div class="container">
-
-				<p>Fin du labeur. Il est environ 3 heures du matin. Nous repartirons le lendemain pour écarter les icebergs qui dérivent et qui risquent d’entraîner les filets. Cela peut engendrer une grosse perte d’argent pour Niels et c’est un risque écologique pour les fonds marins. Le vêlage devient de plus en plus courant: le dérèglement provoque la séparation par fracture d’une masse de glace qui se détache ainsi d’un mur, d’une falaise de glace ou d’un iceberg.</p>
-				<p>A Uummannaq, à sept heures de bateau plus au nord, on a attendu cette année jusqu’au mois de juin pour admirer la débâcle. On n’avait plus vu cela depuis 2004. De quoi jeter le doute sur le «réchauffement climatique». On m’explique la réticence à répondre sur le sujet. Dérive de l’éthique journalistique. En 2016, un photographe d’une célèbre revue réalisait un sujet sur les changements. Pris dans l’euphorie, un habitant accepte de revêtir ses habits traditionnels et de se laisser photographier sur un morceau de banquise à la dérive. Ces images seront les seules publiées et deviendront iconiques de notre côté de la planète. Lui est devenu la risée du village, au point de choisir l’isolement.</p>
-
-				<h3>Villages désertés</h3>
-
-				<p>«Si de plus en plus de Groenlandais quittent leur village, c’est d’abord à cause du manque de services. La loi de regroupement des municipalités, qui a suivi le référendum de 2009, a supprimé nombre de services de proximité.» La désertification comme alibi des restrictions budgétaires…</p>
-				<p>Le Groenland, sur cette partie ouest de la côte, enregistre depuis 1951 une augmentation de la température de 5°C en hiver, 3°C au printemps et à l’automne, et de 0°C à 1°C en été. Les variations varient sensiblement d’une zone à l’autre en fonction des vents et des courants marins. Il est également difficile de mesurer l’évolution des températures en dehors des zones côtières, car l’inlandsis – qui compose 80% de l’île – reste quasiment inaccessible et cela demanderait des moyens scientifiques colossaux.</p>
-				<p>[INFOG POTENTIELLE: EVOLUTION TEMPERATURE ANNUELLE]</p>
-
-				<!-- (EXPERIMENTAL) CITATION DROIT DANS UN PARAGRAPHE. DOIT ETRE DANS UNE SECTION -->
-				<blockquote class="right">
-					<span>Les Groenlandais et le gouvernement voient dans la fonte des glaces de véritables opportunités pour eux et pour le pays</span>
-					<!-- <div class="caption"><b>PAALUK</b></div> -->
-				</blockquote>
-
-				<p>En revanche, le sud de l’île est presque totalement libéré des glaces toute l’année, permettant le développement de l’agriculture. Au Pilersuisoq, on peut donc être surpris de trouver des pommes de terre «made in Greenland», ou des fraises qui ne sont pas importées. Cela peut faire sourire, mais «les Groenlandais et le gouvernement voient dans la fonte des glaces de véritables opportunités pour eux et pour le pays», soulève Paaluk. Lui-même s’est lancé dans une compagnie de tourisme haut de gamme, ciblant une clientèle sportive en quête de sensations fortes, de paysages exceptionnels et d’une nature unique, autour de l’île d’Uummannaq.</p>
-
-			</div>
-		</section>
-
-		<!-- SECTION VIDEO -->
-		<section class="video">
-			<div class="video-wrapper">
-				<div class="trigger"></div>
-				<video controls muted>
-					<source src="https://player.vimeo.com/external/335361298.hd.mp4?s=0e1d51dd32f6b52ca3a7e0d9cb356ef345acec19&profile_id=175"
-					 type="video/mp4"> Votre navigateur ne supporte pas les vidéos HTML%.
-				</video>
-			</div>
-		</section>
-
-		<section>
-			<div class="container">
-
-				<p>«Les Groenlandais connaissent parfaitement la nature arctique. Ils vivent avec elle depuis des siècles. Ils la respectent. Ils observent tous aujourd’hui que leur environnement, la faune et la flore se modifient. Ils ne nient pas qu’il y a un changement mais, dans leur grande majorité, ils pensent que c’est un cycle de la Terre comme leurs ancêtres en ont connu auparavant. Réchauffement ou pas, ils sont convaincus qu’ils s’adapteront, comme ils ont toujours su le faire. Pour le moment, ils saisissent l’opportunité qui leur est offerte. Les Inuits sont pragmatiques. C’est comme cela qu’ils ont toujours survécu»… avec autant de dilemmes que de paradoxes.</p>
-
-				</div>
-				</section>
-
-				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_04.jpg">
-				    <div class="caption">
-				      Niels et sa fille Arnatasiaq légende
-				    </div>
-				  </div>
-				</section>
-
-				<section class="padding-bottom">
-				<div class="container">
-
-				<h3 class="inter-titre title">3. Un territoire convoité</h2>
-
-				<p>L’engouement des grandes puissances pour la région – qui entraîne dans son sillage celui des grandes entreprises – s’est décuplé depuis que les effets du dérèglement climatique ne sont plus seulement une hypothèse, mais cet intérêt n’est pas totalement nouveau. Durant la guerre froide, l’île était un poste d’observation stratégique qui permettait le contrôle des voies maritimes militaires et de ravitaillement, ainsi que des trajectoires des missiles de longue portée. Dans de récentes publications, on découvre ainsi que dès 1946 les Etats-Unis avaient offert au Danemark d’acheter l’île pour 100 millions de dollars. Copenhague avait refusé, et doit s’en réjouir aujourd’hui.</p>
-
-				<h3>Soutien financier du Danemark</h3>
-
-				<p>Colonie danoise depuis le XVIe siècle, le Groenland est une région autonome depuis 1979. Bien que certains partis politiques surfent sur une vague populiste, une majorité de Groenlandais semblent vouloir conserver une relation privilégiée avec le Danemark, qui contribue à la moitié de leur budget annuel, et ne sont pas prêts à choisir une indépendance totale.</p>
-				<p>Le Groenland représente pour le Danemark un enjeu stratégique majeur. Ce territoire lui permet de siéger au Conseil de l’Arctique et de peser de façon décisive au niveau international sur les questions de l’exploitation des ressources halieutiques, minières et en hydrocarbures, mais aussi sur les questions militaires et de défense qui opposent la Russie aux Etats-Unis – avec qui le Danemark fait cause commune – dans la région, sans oublier les nouvelles voies maritimes qui peuvent à terme être très rentables.</p>
-				<p>L’Arctique est devenu en vingt ans un objet de spéculation. La fonte des glaces et le recul de l’inlandsis ouvrent la voie à l’exploitation de ressources très convoitées, et les autorités groenlandaises comptent bien y trouver leur compte.</p>
-
-				<h3>Nouvelles voies maritimes</h3>
-
-				<p>La fonte des glaces libère des routes maritimes – notamment le passage du Nord-Ouest – qui réduiraient de 40% le trajet entre l’Asie et l’Europe, ce qui permettrait d’éviter les goulets d’étranglement des canaux de Suez et Panama. Ces liaisons ne sont actuellement praticables que deux à trois mois par an, mais pourraient devenir très rentables en passant à six mois dans les trente prochaines années. Cela entraînerait des risques de pollution indéniables.</p>
-				<p>On estime que l’Arctique recèlerait le quart des ressources de pétrole et de gaz de la planète, et plus d’un tiers se situerait au Groenland. Il en va de même pour l’uranium et les terres rares tant recherchées pour le matériel électronique de pointe et les énergies renouvelables, comme la fabrication de panneaux solaires ou les batteries de voitures électriques, et dont la Chine possède actuellement le quasi-monopole commercial. «Sûrement une bonne opportunité pour créer des emplois», confirme Paaluk, qui a accompagné au début de l’été des ingénieurs vers l’ancienne mine de charbon «Black Angel» près d’Uummannaq.</p>
-				<p>Le site avait fermé au début des années 1990, laissant un immense vide pour la main-d’œuvre locale, sans aucune possibilité de reconversion. Des compagnies chinoises pourraient à nouveau s’y intéresser. Les autorités groenlandaises – avec l’aval du tuteur danois – ont déjà accordé cinq licences d’exploitation à de grandes compagnies minières, principalement américaines et australiennes, après avoir levé l’interdiction de l’exploitation des minerais radioactifs en 2013. Un changement de politique majeur de la part des capitales Copenhague et Nuuk, qui pratiquaient depuis trente ans une tolérance zéro sur la question nucléaire.</p>
-
-
-				</div>
-				</section>
-
-				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_28.jpg">
-				    <div class="caption">
-				      La cloche de Qeqertaq, avec à l’arrière-plan l'école primaire et l'église, au centre du village.
-				    </div>
-				  </div>
-				</section>
-
-				<section class="padding-bottom">
-				<div class="container">
-
-				<h3 class="inter-titre title">4. «Eldorado» décevant</h2>
+			<h3 class="inter-titre title">4. «Eldorado» décevant</h2>
 
 				<p>Ce que les observateurs n’hésitaient pas à appeler «le nouvel eldorado» il y a encore tout juste cinq ans connaît aujourd’hui un sérieux coup de frein et oblige le gouvernement groenlandais à réviser ses stratégies.</p>
 				<p>Si, comme le montrent les récents sondages, l’exploitation des ressources naturelles est aux yeux de la population groenlandaise un atout pour son développement économique, elle n’en reste pas moins méfiante face aux risques que peuvent entraîner l’extraction et l’exploitation de minerais radioactifs. Malgré les tentatives de communication de la compagnie Greenland Minerals and Energy, le projet pilote de Kvanefjeld (deuxième gisement mondial de terres rares) a suscité des inquiétudes, et l’acquisition de 12,5% des parts par la compagnie chinoise Shenge au début de l’année 2017 n’a pas arrangé les choses. Les Groenlandais craignent une arrivée massive de main-d’œuvre chinoise.</p>
@@ -283,48 +358,67 @@
 				<h3>Exploration pétrolière trop hasardeuse</h3>
 
 				<p>Plus déstabilisant encore, début 2015 trois grandes compagnies pétrolières – GDF Suez (France), Statoil (Norvège) et DONG (Danemark) – ont décidé d’abandonner leurs licences d’exploration malgré l’offre alléchante du gouvernement groenlandais de les prolonger gratuitement. Ces sociétés annoncent des résultats décevants de leurs explorations et hésitent à se lancer dans de nouveaux investissements offshore très coûteux, alors que la demande mondiale baisse progressivement, et que les investissements vers les énergies renouvelables sont boostés par une opinion publique de plus en plus sensible aux questions environnementales.</p>
-				<p>Paradoxe ou ironie, si le dérèglement climatique tend à faciliter l’exploitation pétrolière, il provoque dans le même temps la fissure et le détachement d’icebergs gigantesques qui sont autant de dangers pour les plates-formes pétrolières. Après l’accident du navire Exxon Valdez en 1989 et plus récemment la série d’incidents dans les mers de Beaufort et des Tchouktches en Alaska, les compagnies pétrolières sont soumises à des normes de sécurité pour le stockage et le convoyage du pétrole brut qu’elles peinent à garantir.</p>
-				<p>Le Groenland se trouve donc à la croisée des chemins: d’un côté, la potentialité d’une indépendance économique – et à terme politique – vis-à-vis du Danemark grâce à l’exploitation de ses ressources naturelles rendues accessibles par le dérèglement climatique, de l’autre, les risques environnementaux que cela implique. Sans oublier la confusion que cela pourrait susciter auprès de l’opinion internationale, qui véhicule et entretient une image de «victime» du dérèglement climatique. Au final, en gagnant son indépendance face à Copenhague, le Groenland court le risque de devenir dépendant des grandes puissances qui s’affrontent dans la géopolitique du pôle et des grandes multinationales avides de ses ressources. Comment ce jeune Etat en pleine construction pourrait-il résister?</p>
 
-				<h3>Le pari du tourisme</h3>
 
-				<p>Dans ce contexte, les autorités du Groenland misent sur plusieurs jokers: tout d’abord son potentiel touristique, en jouant la carte de ses magnifiques espaces naturels et la découverte des activités nordiques. Ilulissat se prépare: les hôtels et les chambres d’hôtes lèvent le doigt et les agences de tourisme affichent leurs circuits. De nouveaux cursus de formation professionnelle sont proposés aux Groenlandais. Des projets pharaoniques d’extension de l’aéroport et de maison du tourisme soulèvent la controverse.</p>
-				<p>A Uummannaq, joyau de la baie de Disko, un comité tente également de réfléchir à un développement touristique raisonnable, qui doit en priorité profiter aux populations locales. Depuis la suppression de la ligne de bateau qui la reliait au centre névralgique qu’est Ilulissat, la petite ville de 1500 habitants, perchée sur une île, subit une perte sèche, obligeant les visiteurs à emprunter l’avion et l’hélicoptère. L’hôtel, qui faisait de l’île une ville étape, a fermé ses portes en 2004. Paaluk s’imaginerait bien «relancer l’affaire». Mais la capitale, Nuuk, compte surtout sur le secteur de la pêche.</p>
+				<div class="block-content right">
+					<img class="zoom lazy" data-original="img/gl/RTS2DQ9P.jpg">
+					<div class="caption">
+						<b>MARÉE NOIRE</b>. En 1989, le navire Exxon Valdez s’échoue sur la côte de l’Alaska et déverse 40 000 tonnes de pétrole brut. (photo: Reuters)</div>
+					</div>
+
+					<p>Paradoxe ou ironie, si le dérèglement climatique tend à faciliter l’exploitation pétrolière, il provoque dans le même temps la fissure et le détachement d’icebergs gigantesques qui sont autant de dangers pour les plates-formes pétrolières. Après l’accident du navire Exxon Valdez en 1989 et plus récemment la série d’incidents dans les mers de Beaufort et des Tchouktches en Alaska, les compagnies pétrolières sont soumises à des normes de sécurité pour le stockage et le convoyage du pétrole brut qu’elles peinent à garantir.</p>
+					<p>Le Groenland se trouve donc à la croisée des chemins: d’un côté, la potentialité d’une indépendance économique – et à terme politique – vis-à-vis du Danemark grâce à l’exploitation de ses ressources naturelles rendues accessibles par le dérèglement climatique, de l’autre, les risques environnementaux que cela implique. Sans oublier la confusion que cela pourrait susciter auprès de l’opinion internationale, qui véhicule et entretient une image de «victime» du dérèglement climatique. Au final, en gagnant son indépendance face à Copenhague, le Groenland court le risque de devenir dépendant des grandes puissances qui s’affrontent dans la géopolitique du pôle et des grandes multinationales avides de ses ressources. Comment ce jeune Etat en pleine construction pourrait-il résister?</p>
+
+					<h3>Le pari du tourisme</h3>
+
+					<p>Dans ce contexte, les autorités du Groenland misent sur plusieurs jokers: tout d’abord son potentiel touristique, en jouant la carte de ses magnifiques espaces naturels et la découverte des activités nordiques. Ilulissat se prépare: les hôtels et les chambres d’hôtes lèvent le doigt et les agences de tourisme affichent leurs circuits. De nouveaux cursus de formation professionnelle sont proposés aux Groenlandais. Des projets pharaoniques d’extension de l’aéroport et de maison du tourisme soulèvent la controverse.</p>
+					<p>A Uummannaq, joyau de la baie de Disko, un comité tente également de réfléchir à un développement touristique raisonnable, qui doit en priorité profiter aux populations locales. Depuis la suppression de la ligne de bateau qui la reliait au centre névralgique qu’est Ilulissat, la petite ville de 1500 habitants, perchée sur une île, subit une perte sèche, obligeant les visiteurs à emprunter l’avion et l’hélicoptère. L’hôtel, qui faisait de l’île une ville étape, a fermé ses portes en 2004. Paaluk s’imaginerait bien «relancer l’affaire». Mais la capitale, Nuuk, compte surtout sur le secteur de la pêche.</p>
 
 				</div>
-				</section>
+			</section>
 
-				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_07.jpg">
-				    <div class="caption">
-				      Niels et son équipe ramènent leurs prises sur le pont. Niels n'est ni satisfait, ni rassuré. Il s'agit de morue et non de flétan.
-				    </div>
-				  </div>
-				</section>
+			<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+			<section class="gallery hero">
+				<div class="layout">
+					<img class="zoom lazy" data-original="img/gl/Groenland_07.jpg">
+					<div class="caption">
+						Niels et son équipe ramènent leurs prises sur le pont. Niels n'est ni satisfait, ni rassuré. Il s'agit de morue et non de flétan.
+					</div>
+				</div>
+			</section>
 
-				<section class="padding-bottom">
+			<section class="padding-bottom">
 				<div class="container">
 
-				<h3 class="inter-titre title">5. Des poissons à ne plus savoir qu’en faire</h2>
+					<h3 class="inter-titre title">5. Des poissons à ne plus savoir qu’en faire</h2>
 
-				<p>Le secteur halieutique représente 90% des exportations du Groenland, et 25% du produit intérieur brut à lui seul. Un mastodonte qui repose principalement sur la crevette, le flétan, la morue, le crabe plus localement, et les œufs de lump une fois par année; 88% de la production est destinée à l’exportation, principalement vers les Etats-Unis, le marché asiatique, la Russie et l’Europe. Trois cents chalutiers de taille moyenne et 25 de grande taille – sous pavillons norvégien, chinois et groenlandais – sont autorisés à pêcher en eaux profondes avec 3500 emplois à la clé, soit 12% de la population active. Mais surtout le secteur est la principale activité de subsistance pour tous les villages de la côte ouest. Cinq mille petites embarcations individuelles sont enregistrées pour la pêche côtière, qui participent à 15% de la production totale.</p>
-				<p>Sans y voir uniquement de la démagogie et des calculs électoralistes, les gouvernements qui se sont succédé sont soucieux de protéger les «petits pêcheurs». C’est une équation subtile entre le pur besoin économique et l’attachement des Inuits à la nature et aux traditions. La compagnie étatique et historique Royal Greenland partage le marché de la pêche avec des sociétés privées qui jouent la concurrence, dont Polar Seafood. Les compagnies ont installé dans chaque village des petites usines et entrepôts qui permettent de conditionner le poisson et de le conserver jusqu’à la prochaine rotation du cargo qui chargera les containers.</p>
+						<p>Le secteur halieutique représente 90% des exportations du Groenland, et 25% du produit intérieur brut à lui seul. Un mastodonte qui repose principalement sur la crevette, le flétan, la morue, le crabe plus localement, et les œufs de lump une fois par année; 88% de la production est destinée à l’exportation, principalement vers les Etats-Unis, le marché asiatique, la Russie et l’Europe. Trois cents chalutiers de taille moyenne et 25 de grande taille – sous pavillons norvégien, chinois et groenlandais – sont autorisés à pêcher en eaux profondes avec 3500 emplois à la clé, soit 12% de la population active. Mais surtout le secteur est la principale activité de subsistance pour tous les villages de la côte ouest. Cinq mille petites embarcations individuelles sont enregistrées pour la pêche côtière, qui participent à 15% de la production totale.</p>
 
-				<h3>Traîneaux surchargés de poissons</h3>
+						<div class="block-content right">
+							<img class="zoom lazy" data-original="img/gl/Groenland_18.jpg">
+							<div class="caption">
+								<b>DÉCHARGEMENT</b>. De retour au port de Qeqertaq, l’équipe de Niels décharge la cargaison de poissons.</div>
+							</div>
 
-				<p>«Ces dernières années, comme je t’ai dit, nous pêchons de plus en plus tard dans la saison. Mais à la transition été-hiver, lorsque les glaces se forment, le cargo ne peut plus venir jusqu’ici. L’entrepôt se remplit rapidement et nous ne savons plus où mettre notre pêche», poursuit Niels. Dans certains villages, près d’Uummannaq, les pêcheurs racontent que pour désengorger leurs points de stockage, ils transportent pendant l’hiver environ une tonne de produits de leur pêche sur leurs traîneaux jusqu’aux grands entrepôts de la ville, prenant le risque que la glace devenue trop fine cède sous leur poids.</p>
-				<p>Royal Greenland et Polar Seafood ont annoncé l’agrandissement ou l’implantation de nouvelles usines dans de nombreuses localités, signe que le secteur se porte bien et que ces compagnies entrevoient des perspectives économiques favorables. Elles ont d’ailleurs la bénédiction des autorités.</p>
+							<p>Sans y voir uniquement de la démagogie et des calculs électoralistes, les gouvernements qui se sont succédé sont soucieux de protéger les «petits pêcheurs». C’est une équation subtile entre le pur besoin économique et l’attachement des Inuits à la nature et aux traditions. La compagnie étatique et historique Royal Greenland partage le marché de la pêche avec des sociétés privées qui jouent la concurrence, dont Polar Seafood. Les compagnies ont installé dans chaque village des petites usines et entrepôts qui permettent de conditionner le poisson et de le conserver jusqu’à la prochaine rotation du cargo qui chargera les containers.</p>
 
-				<h3>Levée des restrictions</h3>
+							<h3>Traîneaux surchargés de poissons</h3>
 
-				<blockquote class="right">
-					<span>Cette année, c’est catastrophique. Il n’y a pas de poisson</span>
-					<!-- <div class="caption"><b>PAALUK</b></div> -->
-				</blockquote>
+							<blockquote class="right">
+								<span>Nous ne savons plus où mettre notre pêche</span>
+								<!-- <div class="caption"><b>PAALUK</b></div> -->
+							</blockquote>
 
-				<p>«L’année dernière était exceptionnelle pour le flétan. Nous avons pêché toute la saison», indique Niels. Mieux encore, les autorités ont levé les quotas, atteints dès le mois d’août, autorisant la pêche jusqu’au début des glaces sans restrictions. Royal Greenland affiche un chiffre d’affaires record de 7,1 milliards de couronnes danoises (954 millions d’euros) pour l’année 2016. Niels poursuit: «Mais cette année, au moins jusqu’à aujourd’hui, c’est catastrophique. Il n’y a pas de poisson. On voit seulement un peu de morue qui revient», après avoir été pêchée de manière intensive sur plusieurs périodes au cours des trois derniers siècles.</p>
+							<p>«Ces dernières années, comme je t’ai dit, nous pêchons de plus en plus tard dans la saison. Mais à la transition été-hiver, lorsque les glaces se forment, le cargo ne peut plus venir jusqu’ici. L’entrepôt se remplit rapidement et nous ne savons plus où mettre notre pêche», poursuit Niels. Dans certains villages, près d’Uummannaq, les pêcheurs racontent que pour désengorger leurs points de stockage, ils transportent pendant l’hiver environ une tonne de produits de leur pêche sur leurs traîneaux jusqu’aux grands entrepôts de la ville, prenant le risque que la glace devenue trop fine cède sous leur poids.</p>
+							<p>Royal Greenland et Polar Seafood ont annoncé l’agrandissement ou l’implantation de nouvelles usines dans de nombreuses localités, signe que le secteur se porte bien et que ces compagnies entrevoient des perspectives économiques favorables. Elles ont d’ailleurs la bénédiction des autorités.</p>
+
+							<h3>Levée des restrictions</h3>
+
+							<!-- <blockquote class="right">
+							<span>Cette année, c’est catastrophique. Il n’y a pas de poisson</span>
+						</blockquote> -->
+
+						<p>«L’année dernière était exceptionnelle pour le flétan. Nous avons pêché toute la saison», indique Niels. Mieux encore, les autorités ont levé les quotas, atteints dès le mois d’août, autorisant la pêche jusqu’au début des glaces sans restrictions. Royal Greenland affiche un chiffre d’affaires record de 7,1 milliards de couronnes danoises (1,09 milliard de francs) pour l’année 2016. Niels poursuit: «Mais cette année, au moins jusqu’à aujourd’hui, c’est catastrophique. Il n’y a pas de poisson. On voit seulement un peu de morue qui revient», après avoir été pêchée de manière intensive sur plusieurs périodes au cours des trois derniers siècles.</p>
 
 					</div>
 				</section>
@@ -333,191 +427,215 @@
 				<section class="video">
 					<div class="video-wrapper">
 						<div class="trigger"></div>
-						<video controls muted>
+						<video controls>
 							<source src="https://player.vimeo.com/external/335361431.hd.mp4?s=df05515edcd0763f055b1e9c2b54bd2da7986931&profile_id=169"
-							 type="video/mp4"> Votre navigateur ne supporte pas les vidéos HTML%.
+							type="video/mp4"> Votre navigateur ne supporte pas les vidéos HTML%.
 						</video>
+
+						<div class="caption">
+							<b>MAUVAISE PRISE.</b> Malgré la quantité de poissons attrapés, Niels fait la moue. Il s’agit de morue et non de flétan. Elle est achetée trois fois moins cher que le flétan par la Royal Greenland.
+						</div>
 					</div>
 				</section>
 
-				<section>
+				<section class="padding-bottom">
 					<div class="container">
 
-				<p>A l’usine de Qeqertaq, Arnatassiaq ne travaille que trois demi-journées par semaine depuis le début de la saison. Les bacs à poissons sont vides. Niels fait la moue. La morue est achetée seulement 6 couronnes danoises (0,8 euro) le kilogramme par la Royal Greenland. Trois fois moins que le flétan. Un énorme manque à gagner pour les pêcheurs qui doivent faire face à des coûts de plus en plus élevés.</p>
+						<p>A l’usine de Qeqertaq, Arnatassiaq ne travaille que trois demi-journées par semaine depuis le début de la saison. Les bacs à poissons sont vides. Niels fait la moue. La morue est achetée seulement 6 couronnes danoises (90 centimes) le kilogramme par la Royal Greenland. Trois fois moins que le flétan. Un énorme manque à gagner pour les pêcheurs qui doivent faire face à des coûts de plus en plus élevés.</p>
 
-				<h3>L’endettement pour survivre</h3>
+						<p>Niels est allé explorer d’autres fjords, en calculant chaque jour la rentabilité de ses sorties. Les tonnages de l’été passé ne compenseront pas la chute libre de 2017.</p>
 
-				<p>«C’est vrai que nous pouvons maintenant pêcher plus de la moitié de l’année avec les bateaux. Mais nous devons aussi aller de plus en plus loin, car le poisson change ses routes. Cela nous oblige à acheter des bateaux plus gros, avec des moteurs plus puissants. Et donc à nous endetter.»</p>
-				<p>Niels Morch, mécanicien de bateau à Uummannaq, confirme: «Il y a cinq ans, les moteurs ne dépassaient pas 100 chevaux. Aujourd’hui, c’est le double. Beaucoup ont acheté des Poca neufs, plus gros, pour aller plus loin et ramener plus de tonnage.» La Royal Greenland et le gouvernement offrent même des prêts à taux exceptionnels pour que les pêcheurs modernisent leur matériel.</p>
+						<h3>L’endettement pour survivre</h3>
 
-				</div>
+						<p>«C’est vrai que nous pouvons maintenant pêcher plus de la moitié de l’année avec les bateaux. Mais nous devons aussi aller de plus en plus loin, car le poisson change ses routes. Cela nous oblige à acheter des bateaux plus gros, avec des moteurs plus puissants. Et donc à nous endetter.»</p>
+						<p>Niels Morch, mécanicien de bateau à Uummannaq, confirme: «Il y a cinq ans, les moteurs ne dépassaient pas 100 chevaux. Aujourd’hui, c’est le double. Beaucoup ont acheté des Poca neufs, plus gros, pour aller plus loin et ramener plus de tonnage.» La Royal Greenland et le gouvernement offrent même des prêts à taux exceptionnels pour que les pêcheurs modernisent leur matériel.</p>
+
+					</div>
 				</section>
 
 				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
 				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_18.jpg">
-				    <div class="caption">
-				      Légende
-				    </div>
-				  </div>
+					<div class="layout">
+						<img class="zoom lazy" data-original="img/gl/Groenland_17.jpg">
+						<div class="caption">
+							Retour au port de Qeqertaq après 16h de pêche au large. La cargaison est déchargée pour être stockée directement dans l'usine Royal Greenland du village.
+						</div>
+					</div>
 				</section>
 
 				<section class="padding-bottom">
-				<div class="container">
+					<div class="container">
 
-				<h3 class="inter-titre title">6. La pêche intensive, valeur refuge</h2>
+						<h3 class="inter-titre title">6. La pêche intensive, valeur refuge</h2>
 
-				<p>L’intention est claire. Dans ce contexte flou, le secteur de la pêche est aujourd’hui prioritaire et une valeur refuge, mais avec le risque d’encourager une forme de pêche intensive – comme cela fut le cas pour la morue.</p>
-				<p>Niels et les autres pêcheurs sont unanimes: «Les poissons que l’on prend aujourd’hui sont bien plus petits qu’il y a dix ou quinze ans. Nous les pêchons alors qu’ils n’ont pas encore atteint leur taille maximale. Ils sont jeunes.» L’impact du dérèglement climatique sur les ressources halieutiques n’est pas encore complètement connu. Le réchauffement et l’acidité des océans pousseraient certaines espèces de l’Atlantique Nord vers les zones arctiques, notamment le maquereau, et modifieraient les périodes de reproduction. On ignore encore comment les espèces pourraient interagir.</p>
+							<p>L’intention est claire. Dans ce contexte flou, le secteur de la pêche est aujourd’hui prioritaire et une valeur refuge, mais avec le risque d’encourager une forme de pêche intensive – comme cela fut le cas pour la morue.</p>
+							<p>Niels et les autres pêcheurs sont unanimes: «Les poissons que l’on prend aujourd’hui sont bien plus petits qu’il y a dix ou quinze ans. Nous les pêchons alors qu’ils n’ont pas encore atteint leur taille maximale. Ils sont jeunes.» L’impact du dérèglement climatique sur les ressources halieutiques n’est pas encore complètement connu. Le réchauffement et l’acidité des océans pousseraient certaines espèces de l’Atlantique Nord vers les zones arctiques, notamment le maquereau, et modifieraient les périodes de reproduction. On ignore encore comment les espèces pourraient interagir.</p>
 
-				<h3>L’océan se réchauffe</h3>
+							<h3>L’océan se réchauffe</h3>
 
-				<p>Les études révèlent que l’océan se serait réchauffé de 2°C depuis 1997 dans la baie de Disko. La fonte accélérée des glaciers introduit une quantité d’eau douce importante, modifiant également les zones de transition entre les eaux chaudes et froides. L’une des clés pour comprendre ce phénomène réside dans le cycle de la chaîne alimentaire et la nourriture que recherchent ces espèces, comme le plancton et le capelan. Les études révèlent également une pollution aux métaux lourds qui se transmet dans toute la chaîne alimentaire.</p>
-				<p>Il n’est pas possible aujourd’hui de poser un diagnostic clair sur ces changements et, d’un point de vue scientifique, la capacité de résilience des espèces est encore inconnue. Les autorités misent clairement sur un développement du secteur et une abondance des ressources halieutiques dans les eaux arctiques, mais l’avenir reste incertain. La question se pose ainsi: qu’arriverait-il aux pêcheurs côtiers si le poisson venait à manquer?</p>
+							<p>Les études révèlent que l’océan se serait réchauffé de 2°C depuis 1997 dans la baie de Disko. La fonte accélérée des glaciers introduit une quantité d’eau douce importante, modifiant également les zones de transition entre les eaux chaudes et froides. L’une des clés pour comprendre ce phénomène réside dans le cycle de la chaîne alimentaire et la nourriture que recherchent ces espèces, comme le plancton et le capelan. Les études révèlent également une pollution aux métaux lourds qui se transmet dans toute la chaîne alimentaire.</p>
 
-				<h3>De moins en moins de poissons</h3>
-
-				<p>Le Greenland Institute of Natural Resources, qui travaille avec le gouvernement groenlandais sur la détermination des quotas et des zones de pêche, constate un recul progressif du flétan depuis 2010. A la fin du mois d’août 2017, il rappelait au Ministère de la pêche, la chasse et l’agriculture ses recommandations fixées à 6400 tonnes. Mais le ministère n’a toujours pas pris de mesures concrètes.</p>
-				<p>[INFOG: recul du flétan? Contacter: http://www.natur.gl/en/communication/news/article/a/decline-in-all-inshore-halibut-stocks-in-north-greenland/]</p>
-				<p>«Nous ne résisterions probablement pas à deux ou trois mauvaises années», confie Hanne. Le brouillard enveloppe le village de Qeqertaq, masquant les immenses icebergs qui quittent le fjord pour rejoindre le large. «Si notre principal moyen de survie disparaît, je pense que le village mourra. Mais nous voulons y croire. Le poisson va revenir.»</p>
-
-				</div>
-				</section>
-
-				<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
-				<section class="gallery hero">
-				  <div class="layout">
-				    <img class="zoom lazy" data-original="img/gl/Groenland_33.jpg">
-				    <div class="caption">
-				      Les adolescents du village de Qeqertaq se retrouvent sur le port. Ils sont généralement partagés entre l’envie de quitter le village et l’attachement à leur famille et leurs coutumes.
-				    </div>
-				  </div>
-				</section>
-
-				<section class="padding-bottom">
-				<div class="container">
-
-				<h3 class="inter-titre title">7. L’éclatement du noyau familial</h2>
-
-				<p>«J’aime bien revenir ici. La vie est paisible. Je passe du temps avec ma famille. J’aime bien pêcher et chasser avec mon père. Mais c’est vrai qu’il n’y a rien. Je m’ennuie vite. J’ai hâte de retrouver mes amis. Et pas seulement sur Facebook.» Maali, la fille de Niels, a 17 ans.</p>
-				<p>Elle repartira dans moins d’une semaine vers Aasiaat pour suivre un nouveau cursus universitaire. Elle a passé les trois mois d’été à Qeqertaq, revenant de deux années d’études au Danemark. Copenhague offre des bourses à la jeune génération pour qu’elle puisse apprendre le danois et l’anglais et suivre des filières qui peuvent être porteuses. Dès l’entrée au cycle secondaire, vers 13-14 ans, les jeunes doivent partir en internat vers les grandes villes voisines s’ils souhaitent poursuivre leurs études. La distance pèse malgré les visites régulières.</p>
-				<p>Arnatassiaq, la sœur aînée de Maali, 23 ans, quittera elle aussi pour la première fois le Groenland et suivra les traces de sa sœur «pour apprendre à gérer une entreprise et obtenir un poste plus important dans une usine de pêche. A Qeqertaq ou ailleurs. J’aime bien vivre ici. Mais…» Mais aucune des deux n’imagine se marier à Qeqertaq. «Avec un pêcheur, ce serait difficile.»</p>
-
-				<h3>Un «palais des glaces»</h3>
-
-				<p>Le Groenland vit une mutation moins visible, celle de l’éclatement du noyau familial. Sans réelles perspectives dans les villages, les jeunes filles sont plus désireuses de poursuivre leurs études, avec le risque de ne pas revenir par manque d’opportunités. Pour les couples, les priorités économiques entraînent des changements plus ou moins faciles à accepter. La place de la femme dans les revenus du ménage est grandissante, ce qui permet de diversifier de façon positive les sources de revenus. C’est un apport indéniable qui est salué autant qu’il peut mettre mal à l’aise.</p>
-				<p>Prise entre les traditions inuites, les références marquées du Danemark colonial et la culture américaine qu’elle découvre en streaming, la jeune génération plaisante à peine quand elle se dépeint «dans un palais des glaces», cherchant son chemin dans un labyrinthe de vitres et de miroirs.</p>
-
-			</div>
-		</section>
-
-    {{ block('contrib_bloc') }}
+							<!-- ENCART DROIT à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+							<div class="block-content right">
+								<img class="zoom lazy" data-original="img/gl/Groenland_30.jpg">
+								<div class="caption">
+									<b>RÉCHAUFFEMENT</b>. Un iceberg dérive tout près du village de Qeqertaq..</div>
+								</div>
 
 
-		<footer>
-			<!-- <hr class="end"> -->
-			<div class="container">
+								<p>Il n’est pas possible aujourd’hui de poser un diagnostic clair sur ces changements et, d’un point de vue scientifique, la capacité de résilience des espèces est encore inconnue. Les autorités misent clairement sur un développement du secteur et une abondance des ressources halieutiques dans les eaux arctiques, mais l’avenir reste incertain. La question se pose ainsi: qu’arriverait-il aux pêcheurs côtiers si le poisson venait à manquer?</p>
 
-				<h5>Nos grands formats</h5>
+								<h3>De moins en moins de poissons</h3>
 
-				<div class="row">
+								<p>Le Greenland Institute of Natural Resources, qui travaille avec le gouvernement groenlandais sur la détermination des quotas et des zones de pêche, constate un recul progressif du flétan depuis 2010. A la fin du mois d’août 2017, il rappelait au Ministère de la pêche, la chasse et l’agriculture ses recommandations fixées à 6400 tonnes. Mais le ministère n’a toujours pas pris de mesures concrètes.</p>
 
-				<a href="https://labs.letemps.ch/interactive/2019/longread-secret-bancaire/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb-secret-bancaire.jpg');"></div>
-						<div class="caption">Dix ans sans secret bancaire</div>
-					</div>
-				</a>
+								<!--<p>[INFOG: recul du flétan? Pas de réponse de: http://www.natur.gl/en/communication/news/article/a/decline-in-all-inshore-halibut-stocks-in-north-greenland/]</p>-->
 
-				<a href="https://labs.letemps.ch/interactive/2018/longread-homo-plasticus/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb-plasticus.jpg');"></div>
-						<div class="caption">Homo plasticus</div>
-					</div>
-				</a>
+								<p>«Nous ne résisterions probablement pas à deux ou trois mauvaises années», confie Hanne. Le brouillard enveloppe le village de Qeqertaq, masquant les immenses icebergs qui quittent le fjord pour rejoindre le large. «Si notre principal moyen de survie disparaît, je pense que le village mourra. Mais nous voulons y croire. Le poisson va revenir.»</p>
+
+							</div>
+						</section>
+
+						<!-- HERO IMAGE ENTRE 2 PARAGRAPHES -->
+						<section class="gallery hero">
+							<div class="layout">
+								<img class="zoom lazy" data-original="img/gl/Groenland_33.jpg">
+								<div class="caption">
+									Les adolescents du village de Qeqertaq se retrouvent sur le port. Ils sont généralement partagés entre l’envie de quitter le village et l’attachement à leur famille et leurs coutumes.
+								</div>
+							</div>
+						</section>
+
+						<section class="padding-bottom">
+							<div class="container">
+
+								<h3 class="inter-titre title">7. L’éclatement du noyau familial</h2>
+
+									<p>«J’aime bien revenir ici. La vie est paisible. Je passe du temps avec ma famille. J’aime bien pêcher et chasser avec mon père. Mais c’est vrai qu’il n’y a rien. Je m’ennuie vite. J’ai hâte de retrouver mes amis. Et pas seulement sur Facebook.» Maali, la fille de Niels, a 17 ans.</p>
+									<p>Elle repartira dans moins d’une semaine vers Aasiaat pour suivre un nouveau cursus universitaire. Elle a passé les trois mois d’été à Qeqertaq, revenant de deux années d’études au Danemark. Copenhague offre des bourses à la jeune génération pour qu’elle puisse apprendre le danois et l’anglais et suivre des filières qui peuvent être porteuses. Dès l’entrée au cycle secondaire, vers 13-14 ans, les jeunes doivent partir en internat vers les grandes villes voisines s’ils souhaitent poursuivre leurs études. La distance pèse malgré les visites régulières.</p>
+
+									<!-- ENCART DROIT à L'INTéRIEUR D'UN PARAGRAPHE. DOIT ÊTRE DANS UNE SECTION -->
+									<div class="block-content right">
+										<img class="zoom lazy" data-original="img/gl/Groenland_30.jpg">
+										<div class="caption">
+											<b>QEQERTAQ</b>. Les enfants du village profitent de la lumière durant les mois d'été.</div>
+										</div>
+
+										<p>Arnatassiaq, la sœur aînée de Maali, 23 ans, quittera elle aussi pour la première fois le Groenland et suivra les traces de sa sœur «pour apprendre à gérer une entreprise et obtenir un poste plus important dans une usine de pêche. A Qeqertaq ou ailleurs. J’aime bien vivre ici. Mais…» Mais aucune des deux n’imagine se marier à Qeqertaq. «Avec un pêcheur, ce serait difficile.»</p>
+
+										<h3>Un «palais des glaces»</h3>
+
+										<p>Le Groenland vit une mutation moins visible, celle de l’éclatement du noyau familial. Sans réelles perspectives dans les villages, les jeunes filles sont plus désireuses de poursuivre leurs études, avec le risque de ne pas revenir par manque d’opportunités. Pour les couples, les priorités économiques entraînent des changements plus ou moins faciles à accepter. La place de la femme dans les revenus du ménage est grandissante, ce qui permet de diversifier de façon positive les sources de revenus. C’est un apport indéniable qui est salué autant qu’il peut mettre mal à l’aise.</p>
+										<p>Prise entre les traditions inuites, les références marquées du Danemark colonial et la culture américaine qu’elle découvre en streaming, la jeune génération plaisante à peine quand elle se dépeint «dans un palais des glaces», cherchant son chemin dans un labyrinthe de vitres et de miroirs.</p>
+
+									</div>
+								</section>
+
+								{{ block('contrib_bloc') }}
 
 
-			</div>
+								<footer>
+									<!-- <hr class="end"> -->
+									<div class="container">
 
-			<div class="row">
-				<a href="https://labs.letemps.ch/interactive/2018/longread-pesticides/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb-pesticides.jpg');"></div>
-						<div class="caption">Dans les champs romands, la bataille des pesticides</div>
-					</div>
-				</a>
+										<h5>Nos grands formats</h5>
 
-				<a href="https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb_fioul.jpg');"></div>
-						<div class="caption">Fioul lourd, le sang impur de la globalisation</div>
-					</div>
-				</a>
-			</div>
+										<div class="row">
 
-			<div class="row">
-				<a href="https://labs.letemps.ch/interactive/2018/longread-pinchat/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb-pinchat.jpg');"></div>
-						<div class="caption">Face aux classes infernales, les profs romands vivent un cauchemar</div>
-					</div>
-				</a>
-				<a href="https://labs.letemps.ch/interactive/2016/longread-gothard/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb_gothard.jpg');"></div>
-						<div class="caption">Les oubliés du Gothard</div>
-					</div>
-				</a>
-			</div>
+											<a href="https://labs.letemps.ch/interactive/2019/longread-secret-bancaire/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb-secret-bancaire.jpg');"></div>
+													<div class="caption">Dix ans sans secret bancaire</div>
+												</div>
+											</a>
 
-			<div class="row">
-				<a href="https://labs.letemps.ch/interactive/2016/shenzhen/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb_shenzhen.jpg');"></div>
-						<div class="caption">Shenzhen, de la fumée des usines aux ateliers d'artistes</div>
-					</div>
-				</a>
-				<a href="https://labs.letemps.ch/interactive/2016/tchernobyl-30-ans/" target="blank" class="footer__link">
-					<div class="teaser">
-						<div class="teaser-bg" style="background: url('img/thumb-tchernobyl.jpg');"></div>
-						<div class="caption">30 ans après, voyage au cœur de la zone </div>
-					</div>
-				</a>
+											<a href="https://labs.letemps.ch/interactive/2018/longread-homo-plasticus/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb-plasticus.jpg');"></div>
+													<div class="caption">Homo plasticus</div>
+												</div>
+											</a>
 
-			</div>
 
-		</div>
+										</div>
 
-			<div class="credits">
-				Texte, photos et vidéos: Samuel Turpin<br>
-				Iconographie: Catherine Rüttimann<br>
-				Webdesign: César Greppin et Paul Ronga
-			</div>
-		</footer>
+										<div class="row">
+											<a href="https://labs.letemps.ch/interactive/2018/longread-pesticides/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb-pesticides.jpg');"></div>
+													<div class="caption">Dans les champs romands, la bataille des pesticides</div>
+												</div>
+											</a>
 
-		{{ block('footer_brand') }}
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
-        <script src="js/jquery.lazyload.js?v=1.9.7"></script>
-        <script src="js/intro-control.js"></script>
-		<script src="js/viewport.js"></script>
-        <!--<script src="js/timeline-control.js"></script>-->
-        <script src="js/owl.carousel.js"></script>
-        <script src="js/main.js"></script>
-        <script src="js/timeline.js"></script>
-        <!--<script src="js/video-control.js"></script>-->
-        <!--<script src="js/map-anim.js"></script>-->
-		<!--<script src="js/hero-control.js"></script>-->
-		<script src="js/animation-pesticides.js"></script>
-		<script src="js/animation-charts.js"></script>
-        <script src="js/zoom.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
-        <script src="js/jquery.counterup.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
-	</body>
-</html>
+											<a href="https://labs.letemps.ch/interactive/2016/longread-fioul-lourd/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb_fioul.jpg');"></div>
+													<div class="caption">Fioul lourd, le sang impur de la globalisation</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="row">
+											<a href="https://labs.letemps.ch/interactive/2018/longread-pinchat/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb-pinchat.jpg');"></div>
+													<div class="caption">Face aux classes infernales, les profs romands vivent un cauchemar</div>
+												</div>
+											</a>
+											<a href="https://labs.letemps.ch/interactive/2016/longread-gothard/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb_gothard.jpg');"></div>
+													<div class="caption">Les oubliés du Gothard</div>
+												</div>
+											</a>
+										</div>
+
+										<div class="row">
+											<a href="https://labs.letemps.ch/interactive/2016/shenzhen/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb_shenzhen.jpg');"></div>
+													<div class="caption">Shenzhen, de la fumée des usines aux ateliers d'artistes</div>
+												</div>
+											</a>
+											<a href="https://labs.letemps.ch/interactive/2016/tchernobyl-30-ans/" target="blank" class="footer__link">
+												<div class="teaser">
+													<div class="teaser-bg" style="background: url('img/thumb-tchernobyl.jpg');"></div>
+													<div class="caption">30 ans après, voyage au cœur de la zone </div>
+												</div>
+											</a>
+
+										</div>
+
+									</div>
+
+									<div class="credits">
+										Texte, photos et vidéos: Samuel Turpin<br>
+										Webdesign: César Greppin et Paul Ronga
+									</div>
+								</footer>
+
+								{{ block('footer_brand') }}
+								<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.js"></script>
+								<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script> -->
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.js"></script>
+								<script src="js/jquery.lazyload.js?v=1.9.7"></script>
+								<script src="js/intro-control.js"></script>
+								<script src="js/viewport.js"></script>
+								<!--<script src="js/timeline-control.js"></script>-->
+								<script src="js/owl.carousel.js"></script>
+								<script src="js/main.js"></script>
+								<script src="js/timeline.js"></script>
+								<!--<script src="js/video-control.js"></script>-->
+								<!--<script src="js/map-anim.js"></script>-->
+								<!--<script src="js/hero-control.js"></script>-->
+								<script src="js/animation-pesticides.js"></script>
+								<script src="js/animation-charts.js"></script>
+								<script src="js/zoom.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.5/waypoints.min.js"></script>
+								<script src="js/jquery.counterup.min.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.6/Chart.bundle.js"></script>
+								<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+							</body>
+							</html>
