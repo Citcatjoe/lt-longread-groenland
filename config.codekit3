@@ -1794,17 +1794,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gl/Groenland_02_small.jpg": {
-		"ft": 16384,
-		"iS": 667277,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gl/Groenland_02_small.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/gl/Groenland_03.jpg": {
 		"ft": 16384,
 		"iS": 1921692,
@@ -2156,36 +2145,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"/img/gl/Unknown-1.jpeg": {
-		"ft": 16384,
-		"iS": 371504,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gl/Unknown-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gl/Unknown.jpeg": {
-		"ft": 16384,
-		"iS": 1256773,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gl/Unknown.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/gl/video_top.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/img/gl/video_top.mp4",
-		"oF": 0
 		},
 	"/img/lazy-placeholder.jpg": {
 		"ft": 16384,
