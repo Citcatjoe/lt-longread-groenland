@@ -2270,6 +2270,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/img/thumb-pesticides.jpg": {
+		"ft": 16384,
+		"iS": 187544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/thumb-pesticides.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/thumb-pinchat.jpg": {
+		"ft": 16384,
+		"iS": 100190,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/thumb-pinchat.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/thumb-plasticus.jpg": {
+		"ft": 16384,
+		"iS": 61917,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/thumb-plasticus.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/thumb-secret-bancaire.jpg": {
+		"ft": 16384,
+		"iS": 143418,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/thumb-secret-bancaire.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/thumb-tchernobyl.jpg": {
 		"ft": 16384,
 		"iS": 74193,
@@ -3496,13 +3540,13 @@
 		},
 	"/social.jpg": {
 		"ft": 16384,
-		"iS": 181199,
+		"iS": 240074,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/social.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"/templates/_blocks.html.twig": {

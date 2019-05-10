@@ -1,4 +1,4 @@
-jQuery(document).ready(function($) 
+jQuery(document).ready(function($)
 {
     mainTl = new TimelineMax(),
     $scene = $('svg.scene-pesticides'),
@@ -62,7 +62,7 @@ jQuery(document).ready(function($)
             .set($sceneBullet5, { autoAlpha: 1, scale: 0, transformOrigin: "center center" })
             .set($sceneTextBullet, { autoAlpha: 0, marginLeft: -50, scale: 0, transformOrigin: "center center" })
             .set($sceneProgress, { autoAlpha: 0, transformOrigin: "center center" });
-			
+
 
 		return clearTl;
     }
@@ -82,15 +82,15 @@ jQuery(document).ready(function($)
     var textContent4 = "Les pesticides qui atteignent le sol y sont en partie dégradés par les microorganismes, ce qui peut donner lieu à des sous-produits plus ou moins toxiques.";
     var textTitle5 = " Dans les nappes d’eau souterraines";
     var textContent5 = "À plus long terme, les pesticides ou leurs sous-produits sont lessivés à travers le sol et gagnent les nappes d’eau souterraines.";
-    
+
     // build scene
 	new ScrollMagic.Scene({
-        triggerElement: 'section.scene', 
+        triggerElement: 'section.scene',
         triggerHook: 0,
         duration: 17000
     })
         .setPin('section.scene', {pushFollowers: true})
-        .offset( 0 ) 
+        .offset( 0 )
         .addTo(controller);
 
     // progress control
@@ -141,7 +141,7 @@ jQuery(document).ready(function($)
 //------------------------------------------------------------------------------------------------------------//
 //--BG IN
 //------------------------------------------------------------------------------------------------------------//
-    
+
     new ScrollMagic.Scene({
       triggerElement: "section.scene",
       triggerHook: 0,
@@ -257,7 +257,7 @@ jQuery(document).ready(function($)
        .setTween($sceneBubble9, { autoAlpha: 1, y: "-=120px", scale: 1, ease: Power4.easeOut })
        .offset(step*5.8) //tip top
        .addTo(controller);
-       
+
 //------------------------------------------------------------------------------------------------------------//
 //--GUY OUT
 //------------------------------------------------------------------------------------------------------------//
@@ -340,7 +340,7 @@ jQuery(document).ready(function($)
       })
       .addTo(controller);
 
-  
+
 
 
 
@@ -396,7 +396,7 @@ jQuery(document).ready(function($)
        .offset(step*9) //tip top
        .addTo(controller);
 
-    
+
 //------------------------------------------------------------------------------------------------------------//
 //--FLECHE2 + BULLET2 IN THEN OUT + TEXT2 IN
 //------------------------------------------------------------------------------------------------------------//
