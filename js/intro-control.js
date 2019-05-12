@@ -15,8 +15,8 @@ jQuery(document).ready(function($)
 	}
 
 	// ANIMATION D'INTRODUCTION AVEC GSAP. PREND EN COMPTE LA LARGEUR POUR RACCOURCIR SI MOBILE
-	var $introDone = true; // false
-	
+	var $introDone = false; // false
+
 	var $hVideoWrapper = $('header .video-wrapper'),
 		$overlay = $('.overlay'),
 		$logoLt = $('.overlay .logo-lt-blanc, .overlay .logo-sponsor'),
