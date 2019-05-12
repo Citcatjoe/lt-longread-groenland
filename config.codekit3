@@ -1549,197 +1549,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"/img/article/chart1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/chart1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/chart2 2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/chart2 2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/chart2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/chart2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/chart3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/chart3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/chart4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/chart4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/map-suisse.png": {
-		"ft": 32768,
-		"iS": 484378,
-		"oA": 0,
-		"oAP": "/img/article/map-suisse.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/article/map-suisse.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/map-suisse.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/img/article/portrait-chevre.jpg": {
-		"ft": 16384,
-		"iS": 244614,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/portrait-chevre.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/portrait-cornamusaz.jpg": {
-		"ft": 16384,
-		"iS": 448326,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/portrait-cornamusaz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/portrait-lebleu.jpg": {
-		"ft": 16384,
-		"iS": 416641,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/portrait-lebleu.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/poster1.jpg": {
-		"ft": 16384,
-		"iS": 210230,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/poster1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/poster2.jpg": {
-		"ft": 16384,
-		"iS": 188275,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/poster2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/posterble.jpg": {
-		"ft": 16384,
-		"iS": 329491,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/posterble.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/posterbzz.jpg": {
-		"ft": 16384,
-		"iS": 283693,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/posterbzz.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/postercoq.jpg": {
-		"ft": 16384,
-		"iS": 269326,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/postercoq.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/posterfleurs.jpg": {
-		"ft": 16384,
-		"iS": 355510,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/posterfleurs.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/posterriviere.jpg": {
-		"ft": 16384,
-		"iS": 317558,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/article/posterriviere.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/img/article/scene.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/article/scene.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/img/cd-arrow-tl.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1752,7 +1561,7 @@
 		},
 	"/img/divers-partners-logo.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 266194,
 		"oA": 0,
 		"oAP": "/img/divers-partners-logo.png",
 		"oF": 0,
@@ -1782,7 +1591,7 @@
 		},
 	"/img/gl/Groenland_01.jpg": {
 		"ft": 16384,
-		"iS": 1482991,
+		"iS": 630000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_01.jpg",
@@ -1793,7 +1602,7 @@
 		},
 	"/img/gl/Groenland_02.jpg": {
 		"ft": 16384,
-		"iS": 1920105,
+		"iS": 360000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_02.jpg",
@@ -1804,7 +1613,7 @@
 		},
 	"/img/gl/Groenland_03-b.jpeg": {
 		"ft": 16384,
-		"iS": 1635535,
+		"iS": 720000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_03-b.jpg",
@@ -1815,7 +1624,7 @@
 		},
 	"/img/gl/Groenland_03.jpg": {
 		"ft": 16384,
-		"iS": 1921692,
+		"iS": 330000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_03.jpg",
@@ -1824,9 +1633,9 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gl/Groenland_04.JPG": {
+	"/img/gl/Groenland_04.jpg": {
 		"ft": 16384,
-		"iS": 1473813,
+		"iS": 60000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_04.jpg",
@@ -1837,7 +1646,7 @@
 		},
 	"/img/gl/Groenland_05.jpg": {
 		"ft": 16384,
-		"iS": 1295958,
+		"iS": 810000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_05.jpg",
@@ -1848,7 +1657,7 @@
 		},
 	"/img/gl/Groenland_06.jpg": {
 		"ft": 16384,
-		"iS": 2882974,
+		"iS": 600000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_06.jpg",
@@ -1859,7 +1668,7 @@
 		},
 	"/img/gl/Groenland_07.jpg": {
 		"ft": 16384,
-		"iS": 2391912,
+		"iS": 60000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_07.jpg",
@@ -1870,7 +1679,7 @@
 		},
 	"/img/gl/Groenland_08.jpg": {
 		"ft": 16384,
-		"iS": 1803058,
+		"iS": 960000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_08.jpg",
@@ -1881,7 +1690,7 @@
 		},
 	"/img/gl/Groenland_09.jpg": {
 		"ft": 16384,
-		"iS": 1600480,
+		"iS": 1020000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_09.jpg",
@@ -1892,7 +1701,7 @@
 		},
 	"/img/gl/Groenland_10.jpg": {
 		"ft": 16384,
-		"iS": 2665258,
+		"iS": 450000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_10.jpg",
@@ -1903,7 +1712,7 @@
 		},
 	"/img/gl/Groenland_11.jpg": {
 		"ft": 16384,
-		"iS": 2377531,
+		"iS": 1170000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_11.jpg",
@@ -1914,7 +1723,7 @@
 		},
 	"/img/gl/Groenland_12.jpg": {
 		"ft": 16384,
-		"iS": 2655443,
+		"iS": 1110000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_12.jpg",
@@ -1925,7 +1734,7 @@
 		},
 	"/img/gl/Groenland_13.jpg": {
 		"ft": 16384,
-		"iS": 2060005,
+		"iS": 1260000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_13.jpg",
@@ -1936,7 +1745,7 @@
 		},
 	"/img/gl/Groenland_14.jpg": {
 		"ft": 16384,
-		"iS": 1807998,
+		"iS": 180000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_14.jpg",
@@ -1947,7 +1756,7 @@
 		},
 	"/img/gl/Groenland_15.jpg": {
 		"ft": 16384,
-		"iS": 1475059,
+		"iS": 930000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_15.jpg",
@@ -1958,7 +1767,7 @@
 		},
 	"/img/gl/Groenland_16.jpg": {
 		"ft": 16384,
-		"iS": 2090848,
+		"iS": 540000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_16.jpg",
@@ -1969,7 +1778,7 @@
 		},
 	"/img/gl/Groenland_17.jpg": {
 		"ft": 16384,
-		"iS": 1879235,
+		"iS": 450000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_17.jpg",
@@ -1991,7 +1800,7 @@
 		},
 	"/img/gl/Groenland_19.jpg": {
 		"ft": 16384,
-		"iS": 1687926,
+		"iS": 1650000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_19.jpg",
@@ -2002,7 +1811,7 @@
 		},
 	"/img/gl/Groenland_20.jpg": {
 		"ft": 16384,
-		"iS": 2344190,
+		"iS": 1680000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_20.jpg",
@@ -2013,7 +1822,7 @@
 		},
 	"/img/gl/Groenland_21.jpg": {
 		"ft": 16384,
-		"iS": 1654642,
+		"iS": 480000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_21.jpg",
@@ -2024,7 +1833,7 @@
 		},
 	"/img/gl/Groenland_22.jpg": {
 		"ft": 16384,
-		"iS": 1841444,
+		"iS": 120000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_22.jpg",
@@ -2035,7 +1844,7 @@
 		},
 	"/img/gl/Groenland_23.jpg": {
 		"ft": 16384,
-		"iS": 2124611,
+		"iS": 60000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_23.jpg",
@@ -2046,7 +1855,7 @@
 		},
 	"/img/gl/Groenland_24.jpg": {
 		"ft": 16384,
-		"iS": 1808086,
+		"iS": 1560000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_24.jpg",
@@ -2057,7 +1866,7 @@
 		},
 	"/img/gl/Groenland_25.jpg": {
 		"ft": 16384,
-		"iS": 2384103,
+		"iS": 930000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_25.jpg",
@@ -2068,7 +1877,7 @@
 		},
 	"/img/gl/Groenland_26.jpg": {
 		"ft": 16384,
-		"iS": 1683708,
+		"iS": 360000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_26.jpg",
@@ -2090,7 +1899,7 @@
 		},
 	"/img/gl/Groenland_28.jpg": {
 		"ft": 16384,
-		"iS": 2214411,
+		"iS": 1650000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_28.jpg",
@@ -2101,7 +1910,7 @@
 		},
 	"/img/gl/Groenland_29.jpg": {
 		"ft": 16384,
-		"iS": 2672175,
+		"iS": 1410000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_29.jpg",
@@ -2112,7 +1921,7 @@
 		},
 	"/img/gl/Groenland_30.jpg": {
 		"ft": 16384,
-		"iS": 2936387,
+		"iS": 930000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_30.jpg",
@@ -2123,7 +1932,7 @@
 		},
 	"/img/gl/Groenland_31.jpg": {
 		"ft": 16384,
-		"iS": 2218570,
+		"iS": 210000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_31.jpg",
@@ -2134,7 +1943,7 @@
 		},
 	"/img/gl/Groenland_32.jpg": {
 		"ft": 16384,
-		"iS": 2629192,
+		"iS": 1620000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_32.jpg",
@@ -2145,7 +1954,7 @@
 		},
 	"/img/gl/Groenland_33.jpg": {
 		"ft": 16384,
-		"iS": 1945683,
+		"iS": 960000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_33.jpg",
@@ -2156,7 +1965,7 @@
 		},
 	"/img/gl/Groenland_34.jpg": {
 		"ft": 16384,
-		"iS": 2270572,
+		"iS": 150000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_34.jpg",
@@ -2167,7 +1976,7 @@
 		},
 	"/img/gl/hanne.jpg": {
 		"ft": 16384,
-		"iS": 271609,
+		"iS": 0,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/hanne.jpg",
@@ -2300,7 +2109,7 @@
 		},
 	"/img/thumb-boldor.jpg": {
 		"ft": 16384,
-		"iS": 79222,
+		"iS": 63366,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/thumb-boldor.jpg",
@@ -2311,7 +2120,7 @@
 		},
 	"/img/thumb-horlogerie-japonaise.jpg": {
 		"ft": 16384,
-		"iS": 196608,
+		"iS": 336357,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/thumb-horlogerie-japonaise.jpg",
@@ -2421,7 +2230,7 @@
 		},
 	"/img/thumb_lumieres.jpg": {
 		"ft": 16384,
-		"iS": 491520,
+		"iS": 554213,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/thumb_lumieres.jpg",
@@ -2443,7 +2252,7 @@
 		},
 	"/img/thumb_science15ans.jpg": {
 		"ft": 16384,
-		"iS": 360448,
+		"iS": 924900,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/thumb_science15ans.jpg",
@@ -2836,749 +2645,13 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/prod/2080039-une-silhouette-de-l-homme-masque-de-pompage-de-pesticides-dans-le-domaine-.jpg": {
-		"ft": 16384,
-		"iS": 81435,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/2080039-une-silhouette-de-l-homme-masque-de-pompage-de-pesticides-dans-le-domaine-.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/42289570-man-flottant-sur-la-rivière-en-kayaks-paysage-de-montagnes-et-de-tente-l-été-design-plat-illustration (1).jpg": {
-		"ft": 16384,
-		"iS": 116092,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/42289570-man-flottant-sur-la-rivière-en-kayaks-paysage-de-montagnes-et-de-tente-l-été-design-plat-illustration (1).jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/42289570-man-flottant-sur-la-rivière-en-kayaks-paysage-de-montagnes-et-de-tente-l-été-design-plat-illustration.jpg": {
-		"ft": 16384,
-		"iS": 116092,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/42289570-man-flottant-sur-la-rivière-en-kayaks-paysage-de-montagnes-et-de-tente-l-été-design-plat-illustration.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/48237940-illustration-vectorielle-kayak-sports-nautiques-de-kayak-.jpg": {
-		"ft": 16384,
-		"iS": 64767,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/48237940-illustration-vectorielle-kayak-sports-nautiques-de-kayak-.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/48237940.eps": {
+	"/README.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/prod/48237940.eps",
+		"oAP": "/README.html",
 		"oF": 0
-		},
-	"/prod/48237940_l.jpg": {
-		"ft": 16384,
-		"iS": 916382,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/48237940_l.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/75069432-section-transversale-tranche-en-terre-isolée-une-pièce-nature-écologie-extérieure-sous-terre-et-autonome-ren.jpg": {
-		"ft": 16384,
-		"iS": 65835,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/75069432-section-transversale-tranche-en-terre-isolée-une-pièce-nature-écologie-extérieure-sous-terre-et-autonome-ren.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B320.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B320.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B321.jpg": {
-		"ft": 16384,
-		"iS": 10563,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B321.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B322.jpg": {
-		"ft": 16384,
-		"iS": 6488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B322.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B323.jpg": {
-		"ft": 16384,
-		"iS": 5977,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B323.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B324.jpg": {
-		"ft": 16384,
-		"iS": 5770,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B324.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B325.jpg": {
-		"ft": 16384,
-		"iS": 12229,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B325.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B326.jpg": {
-		"ft": 16384,
-		"iS": 5770,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B326.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B327.jpg": {
-		"ft": 16384,
-		"iS": 6488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B327.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B328.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B328.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B329.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B329.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B32A.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B32A.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B32B.jpg": {
-		"ft": 16384,
-		"iS": 12229,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B32B.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B32C.jpg": {
-		"ft": 16384,
-		"iS": 6488,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B32C.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B32D.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B32D.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/7C4FEE984EC0B32F.jpg": {
-		"ft": 16384,
-		"iS": 10974,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/7C4FEE984EC0B32F.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/Au pied du mur.htm": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur.htm",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/animation-charts.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/animation-charts-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/animation-pesticides.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/animation-pesticides-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/animation.gsap.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/animation.gsap-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/Chart.bundle.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/Chart.bundle-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/chart2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/chart2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/prod/Au pied du mur_files/css": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/css",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/css(1)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/css(1)",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/css(2)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/css(2)",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/css(3)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/css(3)",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/debug.addIndicators.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/debug.addIndicators-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/empty.png": {
-		"ft": 32768,
-		"iS": 81,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/empty.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/prod/Au pied du mur_files/font-awesome.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/font-awesome.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/prod/Au pied du mur_files/iframe_api": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Au pied du mur_files/iframe_api",
-		"oF": 0
-		},
-	"/prod/Au pied du mur_files/intro-control.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/intro-control-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/jquery.counterup.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/jquery.counterup.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/jquery.lazyload.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/jquery.lazyload-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/jquery.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/jquery.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/loader.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/loader-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/prod/Au pied du mur_files/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/main-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/prod/Au pied du mur_files/main.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/owl.carousel.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/owl.carousel-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/prod/Au pied du mur_files/owl.carousel.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/owl.carousel-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/owl.theme.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/owl.theme-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/prod/Au pied du mur_files/ScrollMagic.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/ScrollMagic-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/SmoothScroll.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/SmoothScroll.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/timeline.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/timeline-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/TweenMax.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/TweenMax.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/viewport.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/viewport-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/waypoints.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/waypoints.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/www-widgetapi.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/www-widgetapi-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/Au pied du mur_files/zoom.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/prod/Au pied du mur_files/zoom-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/prod/chart2_page de droite.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/prod/chart2_page de droite.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/prod/chart3_page de droite.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/prod/chart3_page de droite.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/prod/chart4_page de droite.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/prod/chart4_page de droite.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11.zip",
-		"oF": 0
-		},
-	"/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11/d_082-11.eps": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11/d_082-11.eps",
-		"oF": 0
-		},
-	"/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11/d_082-11.jpg": {
-		"ft": 16384,
-		"iS": 2019477,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/elements-eco-lifestyle-set-of-flat-design-style-banners-9G2F8V-2018-05-11/d_082-11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11.zip",
-		"oF": 0
-		},
-	"/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11/d_082-13.eps": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11/d_082-13.eps",
-		"oF": 0
-		},
-	"/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11/d_082-13.jpg": {
-		"ft": 16384,
-		"iS": 2023643,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/elements-ecology-set-of-flat-design-style-vector-banners-YBNY4T-2018-05-11/d_082-13.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/prod/LT_WEB_PESTICIDES_CARTE.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LT_WEB_PESTICIDES_CARTE.ai",
-		"oF": 0
-		},
-	"/prod/LT_WEB_PESTICIDES_DONUT.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LT_WEB_PESTICIDES_DONUT.ai",
-		"oF": 0
-		},
-	"/prod/LT_WEB_PESTICIDES_PAYS.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LT_WEB_PESTICIDES_PAYS.ai",
-		"oF": 0
-		},
-	"/prod/LT_WEB_PESTICIDES_PYRAMIDES.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LT_WEB_PESTICIDES_PYRAMIDES.ai",
-		"oF": 0
-		},
-	"/prod/LT_WEB_PESTICIDES_TONNEAUX.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LT_WEB_PESTICIDES_TONNEAUX.ai",
-		"oF": 0
-		},
-	"/prod/LTXXX_2016_page1_316mm_copie_.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/LTXXX_2016_page1_316mm_copie_.ai",
-		"oF": 0
-		},
-	"/prod/Pesticides.tiff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/Pesticides.tiff",
-		"oF": 0
-		},
-	"/prod/rapport_atmo_aura_2017_modelisation_pesticides.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/rapport_atmo_aura_2017_modelisation_pesticides.pdf",
-		"oF": 0
-		},
-	"/prod/scene-with-plant_Plan de travail 1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/prod/scene-with-plant_Plan de travail 1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/prod/scene.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/prod/scene.ai",
-		"oF": 0
-		},
-	"/prod/stock-vector-farmer-sprays-pesticide-vector-illustration-608381921.jpg": {
-		"ft": 16384,
-		"iS": 46005,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/prod/stock-vector-farmer-sprays-pesticide-vector-illustration-608381921.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
 		},
 	"/README.md": {
 		"cB": 0,
@@ -3601,7 +2674,7 @@
 		},
 	"/social.jpg": {
 		"ft": 16384,
-		"iS": 240074,
+		"iS": 30000,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/social.jpg",
