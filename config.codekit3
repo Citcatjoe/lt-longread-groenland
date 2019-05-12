@@ -1581,6 +1581,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/img/gl-video-poster/icebergs_poster.jpg": {
+		"ft": 16384,
+		"iS": 263888,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl-video-poster/icebergs_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/gl-video-poster/paaluk_poster.jpg": {
+		"ft": 16384,
+		"iS": 280707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl-video-poster/paaluk_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/gl-video-poster/peche_poster.jpg": {
+		"ft": 16384,
+		"iS": 469208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/gl-video-poster/peche_poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/img/gl/.BridgeSort": {
 		"cB": 0,
 		"ft": 8192,
@@ -1611,26 +1644,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/img/gl/Groenland_03-b.jpeg": {
-		"ft": 16384,
-		"iS": 720000,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/img/gl/Groenland_03-b.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/img/gl/Groenland_03.jpg": {
 		"ft": 16384,
-		"iS": 330000,
+		"iS": 1635535,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/gl/Groenland_03.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/img/gl/Groenland_04.jpg": {

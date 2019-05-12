@@ -413,9 +413,8 @@ section
 		    -moz-osx-font-smoothing: grayscale;
 
 		    @include breakpoint(md) {
-		        position: static;
-		        padding: 11px 0 0 0;
-
+					width: 90%;
+					margin: auto;
 		    }
 		}
 	}
@@ -784,6 +783,13 @@ section
 		            width: 100%;
 
 		        }
+			}
+
+			div.br-fix
+			{
+				@include breakpoint(xs){
+					display: none;
+				}
 			}
 
 			span

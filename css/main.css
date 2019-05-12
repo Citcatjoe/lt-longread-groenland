@@ -768,8 +768,8 @@ section {
       -moz-osx-font-smoothing: grayscale; }
       @media (max-width: 992px) {
         section.video .caption {
-          position: static;
-          padding: 11px 0 0 0; } }
+          width: 90%;
+          margin: auto; } }
   section.video-360 {
     padding: 0;
     width: 100%;
@@ -963,6 +963,9 @@ section {
         @media (max-width: 500px) {
           section.encart div.sponsor-bar div.sponsor-bar-container {
             width: 100%; } }
+      @media (max-width: 500px) {
+        section.encart div.sponsor-bar div.br-fix {
+          display: none; } }
       section.encart div.sponsor-bar span {
         padding-top: 12px;
         color: #505050;
