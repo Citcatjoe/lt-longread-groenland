@@ -7793,14 +7793,6 @@
 		"oA": 2,
 		"oAP": "/vendor/twig/twig/test/Twig/Tests/TokenStreamTest.php",
 		"oF": 0
-		},
-	"/vid/gloop.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/vid/gloop.mp4",
-		"oF": 0
 		}
 	},
 "hooks": [
